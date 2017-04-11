@@ -1,6 +1,6 @@
-﻿--Begin Ping.lua By @MahDiRoO
+﻿--Begin Ping.lua By 
 local datebase = {
-   "@helpgram_team❤️",
+   "pong❤️",
   }
 local function run(msg, matches) 
 return datebase[math.random(#datebase)]

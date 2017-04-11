@@ -1,4 +1,4 @@
---Begin GetProf.lua By @MahDiRoO
+--Begin GetProf.lua By 
 local function run(msg, matches)
  if matches[1] == "getpro" or matches[1] == "Getpro" or matches[1] == "پروفایل" then
  local function dl_photo(arg,data)
