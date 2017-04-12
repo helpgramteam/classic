@@ -143,7 +143,7 @@ function run(msg, matches)
 		text = text..'\nغروب آفتاب: '..data.Sunset
 		text = text..'\nاذان مغرب: '..data.Maghrib
 		text = text..'\nعشاء : '..data.Isha
-		text = text..'\n@MaTaDoRTeaM\n'
+		text = text..'\n@helpgramteam\n'
 		return tdcli.sendMessage(msg.chat_id_, 0, 1, text, 1, 'html')
 	end
 --------------------------------
@@ -162,7 +162,7 @@ function run(msg, matches)
 					local apath = tostring(tcpath)..'/data/sticker'
 					if file_exi(tostring(name), tostring(apath), tostring(pasvand)) then
 						os.rename(file, pfile)
-						tdcli.sendPhoto(msg.to.id, 0, 0, 1, nil, pfile, "@MaTaDoRTeaM", dl_cb, nil)
+						tdcli.sendPhoto(msg.to.id, 0, 0, 1, nil, pfile, "@helpgramteam", dl_cb, nil)
 					else
 						tdcli.sendMessage(msg.to.id, msg.id_, 1, '_This sticker does not exist. Send sticker again._', 1, 'md')
 					end
@@ -220,7 +220,7 @@ function run(msg, matches)
 
 	end
 --------------------------------
-if matches[1] == 'voice' or matches[1] == 'Voice' or matches[1] == 'ویس' then
+if matches[1] == 'voice' or matches[1] == 'Voice' or matches[1] == 'وی' then
  local text = matches[2]
     textc = text:gsub(' ','.')
     
@@ -237,7 +237,7 @@ end
 	if matches[1] == "tr" or matches[1] == "Tr" or matches[1] == "ترجمه" then 
 		url = https.request('https://translate.yandex.net/api/v1.5/tr.json/translate?key=trnsl.1.1.20160119T111342Z.fd6bf13b3590838f.6ce9d8cca4672f0ed24f649c1b502789c9f4687a&format=plain&lang='..URL.escape(matches[2])..'&text='..URL.escape(matches[3]))
 		data = json:decode(url)
-		return 'زبان : '..data.lang..'\nترجمه : '..data.text[1]..'\n____________________\n @MaTaDoRTeaM :)'
+		return 'زبان : '..data.lang..'\nترجمه : '..data.text[1]..'\n____________________\n @helpgramteam :)'
 	end
 --------------------------------
 	if matches[1]:lower() == 'short' or matches[1]:lower() == 'Short' or matches[1]:lower() == 'کوتاه' then
@@ -258,7 +258,7 @@ end
 		return tdcli.sendMessage(msg.chat_id_, 0, 1, text, 1, 'html')
 	end
 --------------------------------
-	if matches[1]:lower() == "sticker" or matches[1]:lower() == "Sticker" or matches[1]:lower() == "استیکر" then 
+	if matches[1]:lower() == "sticker" or matches[1]:lower() == "Sticker" or matches[1]:lower() == "استیک" then 
 		local eq = URL.escape(matches[2])
 		local w = "500"
 		local h = "500"
@@ -280,7 +280,7 @@ end
 		tdcli.sendDocument(msg.to.id, 0, 0, 1, nil, file, '', dl_cb, nil)
 	end
 --------------------------------
-	if matches[1]:lower() == "photo" or  matches[1]:lower() == "Photo" or matches[1]:lower() == "عکس" then 
+	if matches[1]:lower() == "photo" or  matches[1]:lower() == "Photo" or matches[1]:lower() == "عک" then 
 		local eq = URL.escape(matches[2])
 		local w = "500"
 		local h = "500"
@@ -339,13 +339,13 @@ return {
 		"^(ساعت)$",
 		"^(به عکس)$",
 		"^(به استیکر)$",
-		"^(ویس) +(.*)$",
+		"^(وی) +(.*)$",
 		"^(اذان) (.*)$",
 		"^(اذان)$",
 		"^(ترجمه) ([^%s]+) (.*)$",
 		"^(کوتاه) (.*)$",
-		"^(عکس) (.+)$",
-		"^(استیکر) (.+)$"
+		"^(عک) (.+)$",
+		"^(استیک) (.+)$"
 		}, 
 	run = run,
 	}

@@ -72,7 +72,6 @@ function create_config( )
     "Nerkh",
     "Ping",
     "Plugins",
-    "Poker",
     "Rank",
     "Report",
     "Rmsg",
