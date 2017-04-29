@@ -86,7 +86,7 @@ function create_config( )
     info_text = [[» helpgram v5.0
 		
 		»Sudo BoT :
-		» @you4u
+		» @lTelekhanl
 		
 		»Shop Source
 		» @helpgramteam
