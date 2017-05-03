@@ -77,16 +77,21 @@ function create_config( )
     "Rmsg",
     "Time",
     "Tools",
-    "Write"	
+    "Write",
+	"kik",
+	"addkick",
+	"date",
+	"myid",
+	"clbl"
 	},
     sudo_users = {338707630},
     admins = {},
     disabled_channels = {},
     moderation = {data = './data/moderation.json'},
-    info_text = [[» helpgram v5.0
+    info_text = [[» helpgram v 2.0
 		
 		»Sudo BoT :
-		» @lTelekhanl
+		» @you4u
 		
 		»Shop Source
 		» @helpgramteam

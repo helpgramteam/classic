@@ -18,4 +18,4 @@ patterns = {
 },
 run = run
 }
---End AddKick.lua--
+--End @you4u
