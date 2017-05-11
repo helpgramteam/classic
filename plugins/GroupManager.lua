@@ -1906,7 +1906,7 @@ local mute_photo = data[tostring(target)]["settings"]["mute_photo"]
 if not lang then
 return "☆》*Mυтє Pнσтσ* _Iѕ Aℓяєα∂у Dιѕαвℓє∂_🔊\n*_________________*\n*🎭Pwered By :* @helpgramteam" 
 elseif lang then
-return "☆》بیصدا کردن #عکس فعال نیست🔊\n*_________________*\n*🎭برنامه نویس :* @MahDiRoO"
+return "☆》بیصدا کردن #عکس فعال نیست🔊\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
 end
 else 
 data[tostring(target)]["settings"]["mute_photo"] = "no"

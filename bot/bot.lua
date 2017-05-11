@@ -82,7 +82,8 @@ function create_config( )
 	"addkick",
 	"date",
 	"myid",
-	"clbl"
+	"clbl",
+	"new"
 	},
     sudo_users = {338707630},
     admins = {},
