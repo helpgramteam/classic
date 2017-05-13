@@ -15,8 +15,8 @@ return [[
 - مقام من
 - مشاهده مقام شما در ربات
 -------------------------
- @helpgramteam
- @you4u
+*🎭shop :* @you4u
+*🎭Channel:* @helpgramteam
 ]]
 end
 return {
