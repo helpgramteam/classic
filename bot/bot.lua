@@ -89,13 +89,13 @@ function create_config( )
     admins = {},
     disabled_channels = {},
     moderation = {data = './data/moderation.json'},
-    info_text = [[» helpgram v 2.0
+    info_text = [[» special v 2.0
 		
 		»Sudo BoT :
-		» @lyou4ul
+		» @lyou4ul / @Vip//_Link//_Admin
 		
 		»Shop Source
-		» @helpgramteam
+		» @tm//_special
 
 GoOd luck ;))
 ]],

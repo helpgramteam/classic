@@ -609,17 +609,17 @@ end
 local lock_link = data[tostring(target)]["settings"]["lock_link"] 
 if lock_link == "yes" then
 if not lang then
- return "☆》*Lιηк* _Pσѕтιηg Iѕ Aℓяєα∂у Lσcкє∂_🔒\n*_________________*\n*🎭Pwered By :* @helpgramteam"
+ return "☆》*Lιηк* _Pσѕтιηg Iѕ Aℓяєα∂у Lσcкє∂_🔒\n*_________________*\n*🎭Pwered By :* @Tm//_special"
 elseif lang then
- return "☆》ارسال #لینک در گروه  از قبلا ممنوع است🔒\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+ return "☆》ارسال #لینک در گروه  از قبلا ممنوع است🔒\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 else
 data[tostring(target)]["settings"]["lock_link"] = "yes"
 save_data(_config.moderation.data, data) 
 if not lang then
- return "☆》*Lιηк* _Pσѕтιηg Hαѕ Bєєη Lσcкє∂_🔒\n*_________________*\n*🎭Pwered By :* @helpgramteam"
+ return "☆》*Lιηк* _Pσѕтιηg Hαѕ Bєєη Lσcкє∂_🔒\n*_________________*\n*🎭Pwered By :* @Tm//_special"
 else
- return "☆》ارسال #لینک در گروه  از قبلا ممنوع است🔒\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+ return "☆》ارسال #لینک در گروه  از قبلا ممنوع است🔒\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 end
 end
@@ -638,16 +638,16 @@ end
 local lock_link = data[tostring(target)]["settings"]["lock_link"]
  if lock_link == "no" then
 if not lang then
-return "☆》*Lιηк* _Pσѕтιηg Iѕ Nσт Lσcкє∂_🔓\n*_________________*\n*🎭Pwered By :* @helpgramteam" 
+return "☆》*Lιηк* _Pσѕтιηg Iѕ Nσт Lσcкє∂_🔓\n*_________________*\n*🎭Pwered By :* @Tm//_special" 
 elseif lang then
-return "☆》ارسال #لینک در گروه  از قبلا ممنوع نیست🔓\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+return "☆》ارسال #لینک در گروه  از قبلا ممنوع نیست🔓\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 else 
 data[tostring(target)]["settings"]["lock_link"] = "no" save_data(_config.moderation.data, data) 
 if not lang then
-return "☆》*Lιηк* _Pσѕтιηg Hαѕ Bєєη Uηℓσcкє∂_🔓\n*_________________*\n*🎭Pwered By :* @helpgramteam" 
+return "☆》*Lιηк* _Pσѕтιηg Hαѕ Bєєη Uηℓσcкє∂_🔓\n*_________________*\n*🎭Pwered By :* @Tm//_special" 
 else
-return "☆》ارسال #لینک در گروه  ازاد شد🔓\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+return "☆》ارسال #لینک در گروه  ازاد شد🔓\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 end
 end
@@ -666,17 +666,17 @@ end
 local lock_tag = data[tostring(target)]["settings"]["lock_tag"] 
 if lock_tag == "yes" then
 if not lang then
- return "☆》*Tαg* _Pσѕтιηg Iѕ Aℓяєα∂у Lσcкє∂_🔒\n*_________________*\n*🎭Pwered By :* @helpgramteam"
+ return "☆》*Tαg* _Pσѕтιηg Iѕ Aℓяєα∂у Lσcкє∂_🔒\n*_________________*\n*🎭Pwered By :* @Tm//_special"
 elseif lang then
- return "☆》ارسال #هشتگ و یوزرنیم در گروه  از قبلا ممنوع است🔒\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+ return "☆》ارسال #هشتگ و یوزرنیم در گروه  از قبلا ممنوع است🔒\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 else
  data[tostring(target)]["settings"]["lock_tag"] = "yes"
 save_data(_config.moderation.data, data) 
 if not lang then
- return "☆》*Tαg* _Pσѕтιηg Hαѕ Bєєη Lσcкє∂_🔒\n*_________________*\n*🎭Pwered By :* @helpgramteam"
+ return "☆》*Tαg* _Pσѕтιηg Hαѕ Bєєη Lσcкє∂_🔒\n*_________________*\n*🎭Pwered By :* @Tm//_special"
 else
- return "☆》ارسال #هشتگ و یوزرنیم در گروه ممنوع شد🔒\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+ return "☆》ارسال #هشتگ و یوزرنیم در گروه ممنوع شد🔒\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 end
 end
@@ -695,16 +695,16 @@ end
 local lock_tag = data[tostring(target)]["settings"]["lock_tag"]
  if lock_tag == "no" then
 if not lang then
-return "☆》*Tαg* _Pσѕтιηg Iѕ Nσт Lσcкє∂_🔓\n*_________________*\n*🎭Pwered By :* @helpgramteam" 
+return "☆》*Tαg* _Pσѕтιηg Iѕ Nσт Lσcкє∂_🔓\n*_________________*\n*🎭Pwered By :* @Tm//_special" 
 elseif lang then
-return "☆》ارسال #هشتگ و یوزرنیم در گروه  از قبلا ممنوع نیست🔓\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+return "☆》ارسال #هشتگ و یوزرنیم در گروه  از قبلا ممنوع نیست🔓\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 else 
 data[tostring(target)]["settings"]["lock_tag"] = "no" save_data(_config.moderation.data, data) 
 if not lang then
-return "☆》*Tαg* _Pσѕтιηg Hαѕ Bєєη Uηℓσcкє∂_🔓\n*_________________*\n*🎭Pwered By :* @helpgramteam" 
+return "☆》*Tαg* _Pσѕтιηg Hαѕ Bєєη Uηℓσcкє∂_🔓\n*_________________*\n*🎭Pwered By :* @Tm//_special" 
 else
-return "☆》ارسال #هشتگ و یوزرنیم در گروه  ازاد شد🔓\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+return "☆》ارسال #هشتگ و یوزرنیم در گروه  ازاد شد🔓\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 end
 end
@@ -723,17 +723,17 @@ end
 local lock_views = data[tostring(target)]["settings"]["views"] 
 if lock_views == "yes" then
 if not lang then
- return "#Views _Posting Is Already Locked_\n*_________________*\n*🎭Pwered By :* @helpgramteam"
+ return "#Views _Posting Is Already Locked_\n*_________________*\n*🎭Pwered By :* @Tm//_special"
 elseif lang then
- return "ارسال #پست ویو دار در گروه هم اکنون ممنوع است🔒\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+ return "ارسال #پست ویو دار در گروه هم اکنون ممنوع است🔒\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 else
  data[tostring(target)]["settings"]["views"] = "yes"
 save_data(_config.moderation.data, data) 
 if not lang then
- return "#Views _Posting Has Been Locked_\n*_________________*\n*🎭Pwered By :* @helpgramteam"
+ return "#Views _Posting Has Been Locked_\n*_________________*\n*🎭Pwered By :* @Tm//_special"
 else
- return "ارسال #پست ویو دار در گروه ممنوع شد🔒\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+ return "ارسال #پست ویو دار در گروه ممنوع شد🔒\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 end
 end
@@ -752,16 +752,16 @@ end
 local lock_views = data[tostring(target)]["settings"]["views"]
  if lock_views == "no" then
 if not lang then
-return "#Views _Posting Is Not Locked_\n*_________________*\n*🎭Pwered By :* @helpgramteam" 
+return "#Views _Posting Is Not Locked_\n*_________________*\n*🎭Pwered By :* @Tm//_special" 
 elseif lang then
-return "ارسال #پست ویو دار در گروه ممنوع نمیباشد🔓\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+return "ارسال #پست ویو دار در گروه ممنوع نمیباشد🔓\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 else 
 data[tostring(target)]["settings"]["views"] = "no" save_data(_config.moderation.data, data) 
 if not lang then
-return "#Views _Posting Has Been Unlocked_\n*_________________*\n*🎭Pwered By :* @helpgramteam" 
+return "#Views _Posting Has Been Unlocked_\n*_________________*\n*🎭Pwered By :* @Tm//_special" 
 else
-return "ارسال #پست ویو دار در گروه آزاد شد🔓\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+return "ارسال #پست ویو دار در گروه آزاد شد🔓\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 end
 end
@@ -780,17 +780,17 @@ end
 local lock_english = data[tostring(target)]["settings"]["english"] 
 if lock_english == "yes" then
 if not lang then
- return "☆》*Eηgℓιѕн* _Pσѕтιηg Iѕ Aℓяєα∂у Lσcкє∂_🔒\n*_________________*\n*🎭Pwered By :* @helpgramteam"
+ return "☆》*Eηgℓιѕн* _Pσѕтιηg Iѕ Aℓяєα∂у Lσcкє∂_🔒\n*_________________*\n*🎭Pwered By :* @Tm//_special"
 elseif lang then
- return "☆》نوشته انگلیسی در گروه از قبل ممنوع است🔒\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+ return "☆》نوشته انگلیسی در گروه از قبل ممنوع است🔒\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 else
  data[tostring(target)]["settings"]["english"] = "yes"
 save_data(_config.moderation.data, data) 
 if not lang then
- return "☆》*Eηgℓιѕн* _Pσѕтιηg Hαѕ Bєєη Lσcкє∂_🔒\n*_________________*\n*🎭Pwered By :* @helpgramteam"
+ return "☆》*Eηgℓιѕн* _Pσѕтιηg Hαѕ Bєєη Lσcкє∂_🔒\n*_________________*\n*🎭Pwered By :* @Tm//_special"
 else
- return "☆》نوشته انگلیسی در گروه ممنوع شد🔒\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+ return "☆》نوشته انگلیسی در گروه ممنوع شد🔒\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 end
 end
@@ -809,16 +809,16 @@ end
 local lock_english = data[tostring(target)]["settings"]["english"]
  if lock_english == "no" then
 if not lang then
-return "☆》*єηgℓιѕн* _Pσѕтιηg Iѕ Nσт Lσcкє∂_🔓\n*_________________*\n*🎭Pwered By :* @helpgramteam" 
+return "☆》*єηgℓιѕн* _Pσѕтιηg Iѕ Nσт Lσcкє∂_🔓\n*_________________*\n*🎭Pwered By :* @Tm//_special" 
 elseif lang then
-return "☆》نوشته انگلیسی در گروه ممنوع نمیباشد🔓\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+return "☆》نوشته انگلیسی در گروه ممنوع نمیباشد🔓\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 else 
 data[tostring(target)]["settings"]["english"] = "no" save_data(_config.moderation.data, data) 
 if not lang then
-return "☆》*Eηgℓιѕн* _Pσѕтιηg Hαѕ Bєєη Uηℓσcкє∂_🔓\n*_________________*\n*🎭Pwered By :* @helpgramteam" 
+return "☆》*Eηgℓιѕн* _Pσѕтιηg Hαѕ Bєєη Uηℓσcкє∂_🔓\n*_________________*\n*🎭Pwered By :* @Tm//_special" 
 else
-return "☆》نوشته انگلیسی در گروه آزاد شد🔓\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+return "☆》نوشته انگلیسی در گروه آزاد شد🔓\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 end
 end
@@ -837,17 +837,17 @@ end
 local lock_emoji = data[tostring(target)]["settings"]["emoji"] 
 if lock_emoji == "yes" then
 if not lang then
- return "☆》*Eмσנι* _Pσѕтιηg Iѕ Aℓяєα∂у Lσcкє∂_🔒\n*_________________*\n*🎭Pwered By :* @helpgramteam"
+ return "☆》*Eмσנι* _Pσѕтιηg Iѕ Aℓяєα∂у Lσcкє∂_🔒\n*_________________*\n*🎭Pwered By :* @Tm//_special"
 elseif lang then
- return "☆》نوشته ایموجی در گروه از قبل ممنوع است🔒\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+ return "☆》نوشته ایموجی در گروه از قبل ممنوع است🔒\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 else
  data[tostring(target)]["settings"]["emoji"] = "yes"
 save_data(_config.moderation.data, data) 
 if not lang then
- return "☆》*Eмσנι* _Pσѕтιηg Hαѕ Bєєη Lσcкє∂_🔒\n*_________________*\n*🎭Pwered By :* @helpgramteam"
+ return "☆》*Eмσנι* _Pσѕтιηg Hαѕ Bєєη Lσcкє∂_🔒\n*_________________*\n*🎭Pwered By :* @Tm//_special"
 else
- return "☆》نوشته ایموجی در گروه ممنوع شد🔒\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+ return "☆》نوشته ایموجی در گروه ممنوع شد🔒\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 end
 end
@@ -866,16 +866,16 @@ end
 local lock_emoji = data[tostring(target)]["settings"]["emoji"]
  if lock_emoji == "no" then
 if not lang then
-return "☆》*Eмσנι* _Pσѕтιηg Iѕ Nσт Lσcкє∂_🔓\n*_________________*\n*🎭Pwered By :* @helpgramteam" 
+return "☆》*Eмσנι* _Pσѕтιηg Iѕ Nσт Lσcкє∂_🔓\n*_________________*\n*🎭Pwered By :* @Tm//_special" 
 elseif lang then
-return "☆》نوشته ایموجی در گروه ممنوع نمیباشد🔓\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+return "☆》نوشته ایموجی در گروه ممنوع نمیباشد🔓\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 else 
 data[tostring(target)]["settings"]["emoji"] = "no" save_data(_config.moderation.data, data) 
 if not lang then
-return "*Eмσנι* _Pσѕтιηg Hαѕ Bєєη Uηℓσcкє∂_🔓\n*_________________*\n*🎭Pwered By :* @helpgramteam" 
+return "*Eмσנι* _Pσѕтιηg Hαѕ Bєєη Uηℓσcкє∂_🔓\n*_________________*\n*🎭Pwered By :* @Tm//_special" 
 else
-return "☆》نوشته ایموجی در گروه آزاد شد🔓\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+return "☆》نوشته ایموجی در گروه آزاد شد🔓\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 end
 end
@@ -894,17 +894,17 @@ end
 local lock_ads = data[tostring(target)]["settings"]["ads"] 
 if lock_ads == "yes" then
 if not lang then
- return "☆》*A∂ѕ* _Pσѕтιηg Iѕ Aℓяєα∂у Lσcкє∂_🔒\n*_________________*\n*🎭Pwered By :* @helpgramteam"
+ return "☆》*A∂ѕ* _Pσѕтιηg Iѕ Aℓяєα∂у Lσcкє∂_🔒\n*_________________*\n*🎭Pwered By :* @Tm//_special"
 elseif lang then
- return "☆》ارسال تبلیغات در گروه از قبل ممنوع است🔒\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+ return "☆》ارسال تبلیغات در گروه از قبل ممنوع است🔒\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 else
  data[tostring(target)]["settings"]["ads"] = "yes"
 save_data(_config.moderation.data, data) 
 if not lang then
- return "☆》*A∂ѕ* _Pσѕтιηg Hαѕ Bєєη Lσcкє∂_\n*_________________*\n*🎭Pwered By :* @helpgramteam"
+ return "☆》*A∂ѕ* _Pσѕтιηg Hαѕ Bєєη Lσcкє∂_\n*_________________*\n*🎭Pwered By :* @Tm//_special"
 else
- return "☆》ارسال تبلیغات در گروه ممنوع شد\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+ return "☆》ارسال تبلیغات در گروه ممنوع شد\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 end
 end
@@ -923,16 +923,16 @@ end
 local lock_ads = data[tostring(target)]["settings"]["ads"]
  if lock_ads == "no" then
 if not lang then
-return "☆》*α∂ѕ* _Pσѕтιηg Iѕ Nσт Lσcкє∂_🔓\n*_________________*\n*🎭Pwered By :* @helpgramteam" 
+return "☆》*α∂ѕ* _Pσѕтιηg Iѕ Nσт Lσcкє∂_🔓\n*_________________*\n*🎭Pwered By :* @Tm//_special" 
 elseif lang then
-return "ارسال تبلیغات در گروه ممنوع نمیباشد🔓\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+return "ارسال تبلیغات در گروه ممنوع نمیباشد🔓\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 else 
 data[tostring(target)]["settings"]["ads"] = "no" save_data(_config.moderation.data, data) 
 if not lang then
-return "☆》*A∂ѕ* _Pσѕтιηg Hαѕ Bєєη Uηℓσcкє∂_🔓\n*_________________*\n*🎭Pwered By :* @helpgramteam" 
+return "☆》*A∂ѕ* _Pσѕтιηg Hαѕ Bєєη Uηℓσcкє∂_🔓\n*_________________*\n*🎭Pwered By :* @Tm//_special" 
 else
-return "☆》ارسال تبلیغات در گروه آزاد شد🔓\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+return "☆》ارسال تبلیغات در گروه آزاد شد🔓\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 end
 end
@@ -951,17 +951,17 @@ end
 local lock_fosh = data[tostring(target)]["settings"]["fosh"] 
 if lock_fosh == "yes" then
 if not lang then
- return "#Fosh _Posting Is Already Locked_\n*_________________*\n*🎭Pwered By :* @helpgramteam"
+ return "#Fosh _Posting Is Already Locked_\n*_________________*\n*🎭Pwered By :* @Tm//_special"
 elseif lang then
- return "ارسال #کلمات رکیک در گروه هم اکنون ممنوع است🔒\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+ return "ارسال #کلمات رکیک در گروه هم اکنون ممنوع است🔒\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 else
  data[tostring(target)]["settings"]["fosh"] = "yes"
 save_data(_config.moderation.data, data) 
 if not lang then
- return "#Fosh _Posting Has Been Locked_\n*_________________*\n*🎭Pwered By :* @helpgramteam"
+ return "#Fosh _Posting Has Been Locked_\n*_________________*\n*🎭Pwered By :* @Tm//_special"
 else
- return "ارسال #کلمات رکیک در گروه ممنوع شد🔒\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+ return "ارسال #کلمات رکیک در گروه ممنوع شد🔒\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 end
 end
@@ -980,16 +980,16 @@ end
 local lock_fosh = data[tostring(target)]["settings"]["english"]
  if lock_fosh == "no" then
 if not lang then
-return "#Fosh _Posting Is Not Locked_\n*_________________*\n*🎭Pwered By :* @helpgramteam" 
+return "#Fosh _Posting Is Not Locked_\n*_________________*\n*🎭Pwered By :* @Tm//_special" 
 elseif lang then
-return "ارسال #کلمات رکیک در گروه ممنوع نمیباشد🔓\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+return "ارسال #کلمات رکیک در گروه ممنوع نمیباشد🔓\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 else 
 data[tostring(target)]["settings"]["fosh"] = "no" save_data(_config.moderation.data, data) 
 if not lang then
-return "#Fosh _Posting Has Been Unlocked_\n*_________________*\n*🎭Pwered By :* @helpgramteam" 
+return "#Fosh _Posting Has Been Unlocked_\n*_________________*\n*🎭Pwered By :* @Tm//_special" 
 else
-return "ارسال #کلمات رکیک در گروه آزاد شد🔓\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+return "ارسال #کلمات رکیک در گروه آزاد شد🔓\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 end
 end
@@ -1008,17 +1008,17 @@ end
 local lock_mention = data[tostring(target)]["settings"]["lock_mention"] 
 if lock_mention == "yes" then
 if not lang then
- return "☆》*Mєηтιση* _Pσѕтιηg Iѕ Aℓяєα∂у Lσcкє∂_🔒\n*_________________*\n*🎭Pwered By :* @helpgramteam"
+ return "☆》*Mєηтιση* _Pσѕтιηg Iѕ Aℓяєα∂у Lσcкє∂_🔒\n*_________________*\n*🎭Pwered By :* @Tm//_special"
 elseif lang then
- return "☆》ارسال #فراخوانی در گروه  از قبلا ممنوع است🔒\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+ return "☆》ارسال #فراخوانی در گروه  از قبلا ممنوع است🔒\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 else
  data[tostring(target)]["settings"]["lock_mention"] = "yes"
 save_data(_config.moderation.data, data)
 if not lang then 
- return "☆》*Mєηтιση* _Pσѕтιηg Hαѕ Bєєη Lσcкє∂_🔒\n*_________________*\n*🎭Pwered By :* @helpgramteam"
+ return "☆》*Mєηтιση* _Pσѕтιηg Hαѕ Bєєη Lσcкє∂_🔒\n*_________________*\n*🎭Pwered By :* @Tm//_special"
 else 
- return "☆》ارسال #فراخوانی در گروه ممنوع شد🔒\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+ return "☆》ارسال #فراخوانی در گروه ممنوع شد🔒\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 end
 end
@@ -1037,16 +1037,16 @@ end
 local lock_mention = data[tostring(target)]["settings"]["lock_mention"]
  if lock_mention == "no" then
 if not lang then
-return "☆》*Mєηтιση* _Pσѕтιηg Iѕ Nσт Lσcкє∂_🔓\n*_________________*\n*🎭Pwered By :* @helpgramteam" 
+return "☆》*Mєηтιση* _Pσѕтιηg Iѕ Nσт Lσcкє∂_🔓\n*_________________*\n*🎭Pwered By :* @Tm//_special" 
 elseif lang then
-return "☆》ارسال #فراخوانی در گروه  از قبلا ممنوع نیست🔓\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+return "☆》ارسال #فراخوانی در گروه  از قبلا ممنوع نیست🔓\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 else 
 data[tostring(target)]["settings"]["lock_mention"] = "no" save_data(_config.moderation.data, data) 
 if not lang then
-return "☆》*Mєηтιση* _Pσѕтιηg Hαѕ Bєєη Uηℓσcкє∂_🔓\n*_________________*\n*🎭Pwered By :* @helpgramteam" 
+return "☆》*Mєηтιση* _Pσѕтιηg Hαѕ Bєєη Uηℓσcкє∂_🔓\n*_________________*\n*🎭Pwered By :* @Tm//_special" 
 else
-return "☆》ارسال # فراخوانی در گروه  ازاد شد🔓\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+return "☆》ارسال # فراخوانی در گروه  ازاد شد🔓\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 end
 end
@@ -1066,17 +1066,17 @@ end
 local lock_arabic = data[tostring(target)]["settings"]["lock_arabic"] 
 if lock_arabic == "yes" then
 if not lang then
- return "☆》*Pєяѕιαη* _Pσѕтιηg Iѕ Aℓяєα∂у Lσcкє∂_🔒\n*_________________*\n*🎭Pwered By :* @helpgramteam"
+ return "☆》*Pєяѕιαη* _Pσѕтιηg Iѕ Aℓяєα∂у Lσcкє∂_🔒\n*_________________*\n*🎭Pwered By :* @Tm//_special"
 elseif lang then
- return "☆》ارسال #کلمات فارسی در گروه  از قبلا ممنوع است🔒\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+ return "☆》ارسال #کلمات فارسی در گروه  از قبلا ممنوع است🔒\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 else
 data[tostring(target)]["settings"]["lock_arabic"] = "yes"
 save_data(_config.moderation.data, data) 
 if not lang then
- return "☆》*Pєяѕιαη* _Pσѕтιηg Hαѕ Bєєη Lσcкє∂_🔒\n*_________________*\n*🎭Pwered By :* @helpgramteam"
+ return "☆》*Pєяѕιαη* _Pσѕтιηg Hαѕ Bєєη Lσcкє∂_🔒\n*_________________*\n*🎭Pwered By :* @Tm//_special"
 else
- return "☆》ارسال #کلمات فارسی در گروه ممنوع شد🔒\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+ return "☆》ارسال #کلمات فارسی در گروه ممنوع شد🔒\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 end
 end
@@ -1095,16 +1095,16 @@ end
 local lock_arabic = data[tostring(target)]["settings"]["lock_arabic"]
  if lock_arabic == "no" then
 if not lang then
-return "☆》*Pєяѕιαη* _Pσѕтιηg Iѕ Nσт Lσcкє∂_🔓\n*_________________*\n*🎭Pwered By :* @helpgramteam" 
+return "☆》*Pєяѕιαη* _Pσѕтιηg Iѕ Nσт Lσcкє∂_🔓\n*_________________*\n*🎭Pwered By :* @Tm//_special" 
 elseif lang then
-return "☆》ارسال #کلمات فارسی در گروه  از قبلا ممنوع نیست🔓\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+return "☆》ارسال #کلمات فارسی در گروه  از قبلا ممنوع نیست🔓\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 else 
 data[tostring(target)]["settings"]["lock_arabic"] = "no" save_data(_config.moderation.data, data) 
 if not lang then
-return "☆》*Pєяѕιαη* _Pσѕтιηg Hαѕ Bєєη Uηℓσcкє∂_🔓\n*_________________*\n*🎭Pwered By :* @helpgramteam" 
+return "☆》*Pєяѕιαη* _Pσѕтιηg Hαѕ Bєєη Uηℓσcкє∂_🔓\n*_________________*\n*🎭Pwered By :* @Tm//_special" 
 else
-return "☆》ارسال # کلمات فارسی در گروه  ازاد شد🔓\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+return "☆》ارسال # کلمات فارسی در گروه  ازاد شد🔓\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 end
 end
@@ -1123,17 +1123,17 @@ end
 local lock_edit = data[tostring(target)]["settings"]["lock_edit"] 
 if lock_edit == "yes" then
 if not lang then
- return "☆》*E∂ιтιηg* _Iѕ Aℓяєα∂у Lσcкє∂_🔒\n*_________________*\n*🎭Pwered By :* @helpgramteam"
+ return "☆》*E∂ιтιηg* _Iѕ Aℓяєα∂у Lσcкє∂_🔒\n*_________________*\n*🎭Pwered By :* @Tm//_special"
 elseif lang then
- return "☆》#ویرایش پیام در گروه  از قبل ممنوع است🔒\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+ return "☆》#ویرایش پیام در گروه  از قبل ممنوع است🔒\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 else
  data[tostring(target)]["settings"]["lock_edit"] = "yes"
 save_data(_config.moderation.data, data) 
 if not lang then
- return "☆》*E∂ιтιηg* _Hαѕ Bєєη Lσcкє∂_🔒\n*_________________*\n*🎭Pwered By :* @helpgramteam"
+ return "☆》*E∂ιтιηg* _Hαѕ Bєєη Lσcкє∂_🔒\n*_________________*\n*🎭Pwered By :* @Tm//_special"
 else
- return "☆》#ویرایش پیام در گروه ممنوع شد🔒\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+ return "☆》#ویرایش پیام در گروه ممنوع شد🔒\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 end
 end
@@ -1152,16 +1152,16 @@ end
 local lock_edit = data[tostring(target)]["settings"]["lock_edit"]
  if lock_edit == "no" then
 if not lang then
-return "☆》*E∂ιтιηg* _Iѕ Nσт Lσcкє∂_🔓\n*_________________*\n*🎭Pwered By :* @helpgramteam" 
+return "☆》*E∂ιтιηg* _Iѕ Nσт Lσcкє∂_🔓\n*_________________*\n*🎭Pwered By :* @Tm//_special" 
 elseif lang then
-return "☆》#ویرایش پیام در گروه از قبل ممنوع نیست🔓\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+return "☆》#ویرایش پیام در گروه از قبل ممنوع نیست🔓\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 else 
 data[tostring(target)]["settings"]["lock_edit"] = "no" save_data(_config.moderation.data, data) 
 if not lang then
-return "☆》*E∂ιтιηg* _Hαѕ Bєєη Uηℓσcкє∂_🔓\n*_________________*\n*🎭Pwered By :* @helpgramteam" 
+return "☆》*E∂ιтιηg* _Hαѕ Bєєη Uηℓσcкє∂_🔓\n*_________________*\n*🎭Pwered By :* @Tm//_special" 
 else
-return "☆》#ویرایش پیام در گروه ازاد است🔓\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+return "☆》#ویرایش پیام در گروه ازاد است🔓\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 end
 end
@@ -1180,17 +1180,17 @@ end
 local lock_spam = data[tostring(target)]["settings"]["lock_spam"] 
 if lock_spam == "yes" then
 if not lang then
- return "☆》*Sραм* _Iѕ Aℓяєα∂у Lσcкє∂_🔒\n*_________________*\n*🎭Pwered By :* @helpgramteam"
+ return "☆》*Sραм* _Iѕ Aℓяєα∂у Lσcкє∂_🔒\n*_________________*\n*🎭Pwered By :* @Tm//_special"
 elseif lang then
- return "☆》ارسال #هرزنامه ( اسپم) در گروه  از قبلا ممنوع است🔒\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+ return "☆》ارسال #هرزنامه ( اسپم) در گروه  از قبلا ممنوع است🔒\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 else
  data[tostring(target)]["settings"]["lock_spam"] = "yes"
 save_data(_config.moderation.data, data) 
 if not lang then
- return "☆》*Sραм* _Hαѕ Bєєη Lσcкє∂_🔒\n*_________________*\n*🎭Pwered By :* @helpgramteam"
+ return "☆》*Sραм* _Hαѕ Bєєη Lσcкє∂_🔒\n*_________________*\n*🎭Pwered By :* @Tm//_special"
 else
- return "☆》ارسال #هرزنامه ( اسپم) در گروه ممنوع شد🔒\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+ return "☆》ارسال #هرزنامه ( اسپم) در گروه ممنوع شد🔒\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 end
 end
@@ -1209,17 +1209,17 @@ end
 local lock_spam = data[tostring(target)]["settings"]["lock_spam"]
  if lock_spam == "no" then
 if not lang then
-return "☆》*Sραм* _Pσѕтιηg Iѕ Nσт Lσcкє∂_🔓\n*_________________*\n*🎭Pwered By :* @helpgramteam" 
+return "☆》*Sραм* _Pσѕтιηg Iѕ Nσт Lσcкє∂_🔓\n*_________________*\n*🎭Pwered By :* @Tm//_special" 
 elseif lang then
- return "☆》ارسال #هرزنامه (اسپم) در گروه  از قبلا ممنوع نیست🔓\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+ return "☆》ارسال #هرزنامه (اسپم) در گروه  از قبلا ممنوع نیست🔓\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 else 
 data[tostring(target)]["settings"]["lock_spam"] = "no" 
 save_data(_config.moderation.data, data)
 if not lang then 
-return "☆》*Sραм* _Pσѕтιηg Hαѕ Bєєη Uηℓσcкє∂_🔓\n*_________________*\n*🎭Pwered By :* @helpgramteam" 
+return "☆》*Sραм* _Pσѕтιηg Hαѕ Bєєη Uηℓσcкє∂_🔓\n*_________________*\n*🎭Pwered By :* @Tm//_special" 
 else
- return "☆》ارسال #هرزنامه (اسپم) در گروه  ازاد شد🔓\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+ return "☆》ارسال #هرزنامه (اسپم) در گروه  ازاد شد🔓\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 end
 end
@@ -1238,17 +1238,17 @@ end
 local lock_flood = data[tostring(target)]["settings"]["flood"] 
 if lock_flood == "yes" then
 if not lang then
- return "☆》*Fℓσσ∂ιηg* _Iѕ Aℓяєα∂у Lσcкє∂_🔒\n*_________________*\n*🎭Pwered By :* @helpgramteam"
+ return "☆》*Fℓσσ∂ιηg* _Iѕ Aℓяєα∂у Lσcкє∂_🔒\n*_________________*\n*🎭Pwered By :* @Tm//_special"
 elseif lang then
- return "☆》ارسال #پیام مکرر در گروه  از قبلا ممنوع است🔒\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+ return "☆》ارسال #پیام مکرر در گروه  از قبلا ممنوع است🔒\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 else
  data[tostring(target)]["settings"]["flood"] = "yes"
 save_data(_config.moderation.data, data) 
 if not lang then
- return "☆》*Fℓσσ∂ιηg* _Hαѕ Bєєη Lσcкє∂_🔒\n*_________________*\n*🎭Pwered By :* @helpgramteam"
+ return "☆》*Fℓσσ∂ιηg* _Hαѕ Bєєη Lσcкє∂_🔒\n*_________________*\n*🎭Pwered By :* @Tm//_special"
 else
- return "☆》ارسال # پیام مکرر در گروه ممنوع شد🔒\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+ return "☆》ارسال # پیام مکرر در گروه ممنوع شد🔒\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 end
 end
@@ -1267,16 +1267,16 @@ end
 local lock_flood = data[tostring(target)]["settings"]["flood"]
  if lock_flood == "no" then
 if not lang then
-return "☆》*Fℓσσ∂ιηg* _Iѕ Nσт Lσcкє∂_🔓\n*_________________*\n*🎭Pwered By :* @helpgramteam" 
+return "☆》*Fℓσσ∂ιηg* _Iѕ Nσт Lσcкє∂_🔓\n*_________________*\n*🎭Pwered By :* @Tm//_special" 
 elseif lang then
-return "☆》ارسال #پیام مکرر در گروه  از قبلا ممنوع نیست🔓\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+return "☆》ارسال #پیام مکرر در گروه  از قبلا ممنوع نیست🔓\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 else 
 data[tostring(target)]["settings"]["flood"] = "no" save_data(_config.moderation.data, data) 
 if not lang then
-return "☆》*Fℓσσ∂ιηg*  _Hαѕ Bєєη Uηℓσcкє∂_🔓\n*_________________*\n*🎭Pwered By :* @helpgramteam" 
+return "☆》*Fℓσσ∂ιηg*  _Hαѕ Bєєη Uηℓσcкє∂_🔓\n*_________________*\n*🎭Pwered By :* @Tm//_special" 
 else
-return "☆》ارسال #پیام مکرر در گروه  ازاد شد🔓\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+return "☆》ارسال #پیام مکرر در گروه  ازاد شد🔓\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 end
 end
@@ -1295,17 +1295,17 @@ end
 local lock_bots = data[tostring(target)]["settings"]["lock_bots"] 
 if lock_bots == "yes" then
 if not lang then
- return "☆》*Bσтѕ* _Pяσтєcтιση Iѕ Aℓяєα∂у Eηαвℓє∂_🔒\n*_________________*\n*🎭Pwered By :* @helpgramteam"
+ return "☆》*Bσтѕ* _Pяσтєcтιση Iѕ Aℓяєα∂у Eηαвℓє∂_🔒\n*_________________*\n*🎭Pwered By :* @Tm//_special"
 elseif lang then
- return "☆》#محافظت از گروه در برابر ربات ها از قبل فعال است🔒\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+ return "☆》#محافظت از گروه در برابر ربات ها از قبل فعال است🔒\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 else
  data[tostring(target)]["settings"]["lock_bots"] = "yes"
 save_data(_config.moderation.data, data) 
 if not lang then
- return "☆》*Bσтѕ* _Pяσтєcтιση Hαѕ Bєєη Eηαвℓє∂_🔒\n*_________________*\n*🎭Pwered By :* @helpgramteam"
+ return "☆》*Bσтѕ* _Pяσтєcтιση Hαѕ Bєєη Eηαвℓє∂_🔒\n*_________________*\n*🎭Pwered By :* @Tm//_special"
 else
- return "☆》#محافظت از گروه در برابر ربات ها  فعال شد🔒\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+ return "☆》#محافظت از گروه در برابر ربات ها  فعال شد🔒\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 end
 end
@@ -1324,16 +1324,16 @@ end
 local lock_bots = data[tostring(target)]["settings"]["lock_bots"]
  if lock_bots == "no" then
 if not lang then
-return "☆》*Bσтѕ* _Pяσтєcтιση Iѕ Nσт Eηαвℓє∂_🔓\n*_________________*\n*🎭Pwered By :* @helpgramteam" 
+return "☆》*Bσтѕ* _Pяσтєcтιση Iѕ Nσт Eηαвℓє∂_🔓\n*_________________*\n*🎭Pwered By :* @Tm//_special" 
 elseif lang then
-return "محافظت از گروه در برابر ربات ها غیر فعال است\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+return "محافظت از گروه در برابر ربات ها غیر فعال است\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 else 
 data[tostring(target)]["settings"]["lock_bots"] = "no" save_data(_config.moderation.data, data) 
 if not lang then
-return "☆》*Bσтѕ* _Pяσтєcтιση Hαѕ Bєєη Dιѕαвℓє∂_🔓\n*_________________*\n*🎭Pwered By :* @helpgramteam" 
+return "☆》*Bσтѕ* _Pяσтєcтιση Hαѕ Bєєη Dιѕαвℓє∂_🔓\n*_________________*\n*🎭Pwered By :* @Tm//_special" 
 else
-return "☆》#محافظت از گروه در برابر ربات ها  ازاد است🔒\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+return "☆》#محافظت از گروه در برابر ربات ها  ازاد است🔒\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 end
 end
@@ -1352,17 +1352,17 @@ end
 local lock_markdown = data[tostring(target)]["settings"]["lock_markdown"] 
 if lock_markdown == "yes" then
 if not lang then 
- return "☆》*Mαяк∂σωη* _Pσѕтιηg Iѕ Aℓяєα∂у Lσcкє∂_🔒\n*_________________*\n*🎭Pwered By :* @helpgramteam"
+ return "☆》*Mαяк∂σωη* _Pσѕтιηg Iѕ Aℓяєα∂у Lσcкє∂_🔒\n*_________________*\n*🎭Pwered By :* @Tm//_special"
 elseif lang then
- return "☆》ارسال #پیام دارای فونت در گروه  از قبلا ممنوع است🔒\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+ return "☆》ارسال #پیام دارای فونت در گروه  از قبلا ممنوع است🔒\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 else
  data[tostring(target)]["settings"]["lock_markdown"] = "yes"
 save_data(_config.moderation.data, data) 
 if not lang then
- return "☆》*Mαяк∂σωη* _Pσѕтιηg Hαѕ Bєєη Lσcкє∂_🔒\n*_________________*\n*🎭Pwered By :* @helpgramteam"
+ return "☆》*Mαяк∂σωη* _Pσѕтιηg Hαѕ Bєєη Lσcкє∂_🔒\n*_________________*\n*🎭Pwered By :* @Tm//_special"
 else
- return "☆》ارسال #پیام دارای فونت در گروه ممنوع شد🔒\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+ return "☆》ارسال #پیام دارای فونت در گروه ممنوع شد🔒\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 end
 end
@@ -1381,16 +1381,16 @@ end
 local lock_markdown = data[tostring(target)]["settings"]["lock_markdown"]
  if lock_markdown == "no" then
 if not lang then
-return "☆》*Mαяк∂σωη* _Pσѕтιηg Iѕ Nσт Lσcкє∂_🔓\n*_________________*\n*🎭Pwered By :* @helpgramteam"
+return "☆》*Mαяк∂σωη* _Pσѕтιηg Iѕ Nσт Lσcкє∂_🔓\n*_________________*\n*🎭Pwered By :* @Tm//_special"
 elseif lang then
-return "☆》ارسال #پیام دارای فونت در گروه  از قبلا ممنوع نیست🔓\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+return "☆》ارسال #پیام دارای فونت در گروه  از قبلا ممنوع نیست🔓\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 else 
 data[tostring(target)]["settings"]["lock_markdown"] = "no" save_data(_config.moderation.data, data) 
 if not lang then
-return "☆》*Mαяк∂σωη* _Pσѕтιηg Hαѕ Bєєη Uηℓσcкє∂_🔓\n*_________________*\n*🎭Pwered By :* @helpgramteam"
+return "☆》*Mαяк∂σωη* _Pσѕтιηg Hαѕ Bєєη Uηℓσcкє∂_🔓\n*_________________*\n*🎭Pwered By :* @Tm//_special"
 else
-return "☆》ارسال #پیام درای فونت در گروه  ازاد شد🔓\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+return "☆》ارسال #پیام درای فونت در گروه  ازاد شد🔓\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 end
 end
@@ -1409,17 +1409,17 @@ end
 local lock_webpage = data[tostring(target)]["settings"]["lock_webpage"] 
 if lock_webpage == "yes" then
 if not lang then
- return "☆》*Wєвραgє* _Iѕ Aℓяєα∂у Lσcкє∂_🔒\n*_________________*\n*🎭Pwered By :* @helpgramteam"
+ return "☆》*Wєвραgє* _Iѕ Aℓяєα∂у Lσcкє∂_🔒\n*_________________*\n*🎭Pwered By :* @Tm//_special"
 elseif lang then
- return "☆》ارسال #صفحات وب در گروه  از قبلا ممنوع است🔒\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+ return "☆》ارسال #صفحات وب در گروه  از قبلا ممنوع است🔒\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 else
  data[tostring(target)]["settings"]["lock_webpage"] = "yes"
 save_data(_config.moderation.data, data) 
 if not lang then
- return "☆》*Wєвραgє* _Hαѕ Bєєη Lσcкє∂_🔒\n*_________________*\n*🎭Pwered By :* @helpgramteam"
+ return "☆》*Wєвραgє* _Hαѕ Bєєη Lσcкє∂_🔒\n*_________________*\n*🎭Pwered By :* @Tm//_special"
 else
- return "☆》ارسال #صفحات وب در گروه ممنوع شد🔒\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+ return "☆》ارسال #صفحات وب در گروه ممنوع شد🔒\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 end
 end
@@ -1438,17 +1438,17 @@ end
 local lock_webpage = data[tostring(target)]["settings"]["lock_webpage"]
  if lock_webpage == "no" then
 if not lang then
-return "☆》*Wєвραgє* _Iѕ Nσт Lσcкє∂_🔓\n*_________________*\n*🎭Pwered By :* @helpgramteam" 
+return "☆》*Wєвραgє* _Iѕ Nσт Lσcкє∂_🔓\n*_________________*\n*🎭Pwered By :* @Tm//_special" 
 elseif lang then
-return "☆》ارسال #صفحات وب در گروه  از قبل ممنوع نیست🔓\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+return "☆》ارسال #صفحات وب در گروه  از قبل ممنوع نیست🔓\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 else 
 data[tostring(target)]["settings"]["lock_webpage"] = "no"
 save_data(_config.moderation.data, data) 
 if not lang then
-return "☆》*Wєвραgє* _Hαѕ Bєєη Uηℓσcкє∂_🔓\n*_________________*\n*🎭Pwered By :* @helpgramteam" 
+return "☆》*Wєвραgє* _Hαѕ Bєєη Uηℓσcкє∂_🔓\n*_________________*\n*🎭Pwered By :* @Tm//_special" 
 else
-return "☆》ارسال #صفحات وب در گروه  ازاد شد🔓\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+return "☆》ارسال #صفحات وب در گروه  ازاد شد🔓\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 end
 end
@@ -1467,17 +1467,17 @@ end
 local lock_pin = data[tostring(target)]["settings"]["lock_pin"] 
 if lock_pin == "yes" then
 if not lang then
- return "☆》*Pιηηє∂ Mєѕѕαgє* _Iѕ Aℓяєα∂у Lσcкє∂_🔒\n*_________________*\n*🎭Pwered By :* @helpgramteam"
+ return "☆》*Pιηηє∂ Mєѕѕαgє* _Iѕ Aℓяєα∂у Lσcкє∂_🔒\n*_________________*\n*🎭Pwered By :* @Tm//_special"
 elseif lang then
- return "☆》سنجاق کردن پیام در گروه از قبل ممنوع است🔒\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+ return "☆》سنجاق کردن پیام در گروه از قبل ممنوع است🔒\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 else
  data[tostring(target)]["settings"]["lock_pin"] = "yes"
 save_data(_config.moderation.data, data) 
 if not lang then
- return "☆》*Pιηηє∂ Mєѕѕαgє* _Hαѕ Bєєη Lσcкє∂_🔒\n*_________________*\n*🎭Pwered By :* @helpgramteam"
+ return "☆》*Pιηηє∂ Mєѕѕαgє* _Hαѕ Bєєη Lσcкє∂_🔒\n*_________________*\n*🎭Pwered By :* @Tm//_special"
 else
- return "☆》سنجاق کردن پیام در گروه ممنوع شد🔒\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+ return "☆》سنجاق کردن پیام در گروه ممنوع شد🔒\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 end
 end
@@ -1496,17 +1496,17 @@ end
 local lock_pin = data[tostring(target)]["settings"]["lock_pin"]
  if lock_pin == "no" then
 if not lang then
-return "☆》*Pιηηє∂ Mєѕѕαgє* _Iѕ Nσт Lσcкє∂_🔓\n*_________________*\n*🎭Pwered By :* @helpgramteam" 
+return "☆》*Pιηηє∂ Mєѕѕαgє* _Iѕ Nσт Lσcкє∂_🔓\n*_________________*\n*🎭Pwered By :* @Tm//_special" 
 elseif lang then
-return "☆》سنجاق کردن پیام در گروه ممنوع نمیباشد🔓\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+return "☆》سنجاق کردن پیام در گروه ممنوع نمیباشد🔓\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 else 
 data[tostring(target)]["settings"]["lock_pin"] = "no"
 save_data(_config.moderation.data, data) 
 if not lang then
-return "☆》*Pιηηє∂ Mєѕѕαgє* _Hαѕ Bєєη Uηℓσcкє∂_🔓\n*_________________*\n*🎭Pwered By :* @helpgramteam" 
+return "☆》*Pιηηє∂ Mєѕѕαgє* _Hαѕ Bєєη Uηℓσcкє∂_🔓\n*_________________*\n*🎭Pwered By :* @Tm//_special" 
 else
-return "☆》سنجاق کردن پیام در گروه آزاد شد🔓\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+return "☆》سنجاق کردن پیام در گروه آزاد شد🔓\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 end
 end
@@ -1525,17 +1525,17 @@ end
 local lock_tabchi = data[tostring(target)]["settings"]["lock_tabchi"] 
 if lock_tabchi == "yes" then
 if not lang then
- return "*Tabchi* _Posting Is Already Locked_\n*_________________*\n*🎭Pwered By :* @helpgramteam"
+ return "*Tabchi* _Posting Is Already Locked_\n*_________________*\n*🎭Pwered By :* @Tm//_special"
 elseif lang then
- return "اوردن تبچی در گروه هم اکنون ممنوع است\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+ return "اوردن تبچی در گروه هم اکنون ممنوع است\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 else
 data[tostring(target)]["settings"]["lock_tabchi"] = "yes"
 save_data(_config.moderation.data, data) 
 if not lang then
- return "*Tabchi* _Posting Has Been Locked_\n*_________________*\n*🎭Pwered By :* @helpgramteam"
+ return "*Tabchi* _Posting Has Been Locked_\n*_________________*\n*🎭Pwered By :* @Tm//_special"
 else
- return "اوردن تبچی در گروه ممنوع شد\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+ return "اوردن تبچی در گروه ممنوع شد\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 end
 end
@@ -1554,16 +1554,16 @@ end
 local lock_tabchi = data[tostring(target)]["settings"]["lock_tabchi"]
  if lock_tabchi == "no" then
 if not lang then
-return "*Tabchi* _Posting Is Not Locked_\n*_________________*\n*🎭Pwered By :* @helpgramteam" 
+return "*Tabchi* _Posting Is Not Locked_\n*_________________*\n*🎭Pwered By :* @Tm//_special" 
 elseif lang then
-return "اوردن تبچی در گروه ممنوع نمیباشد\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+return "اوردن تبچی در گروه ممنوع نمیباشد\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 else 
 data[tostring(target)]["settings"]["lock_tabchi"] = "no" save_data(_config.moderation.data, data) 
 if not lang then
-return "*Tabchi* _Posting Has Been Unlocked_\n*_________________*\n*🎭Pwered By :* @helpgramteam" 
+return "*Tabchi* _Posting Has Been Unlocked_\n*_________________*\n*🎭Pwered By :* @Tm//_special" 
 else
-return "اوردن تبچی در گروه آزاد شد\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+return "اوردن تبچی در گروه آزاد شد\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 end
 end
@@ -1584,17 +1584,17 @@ end
 local mute_all = data[tostring(target)]["settings"]["mute_all"] 
 if mute_all == "yes" then 
 if not lang then
-return "☆》*Mυтє Aℓℓ* _Iѕ Aℓяєα∂у Eηαвℓє∂_🔇\n*_________________*\n*🎭Pwered By :* @helpgramteam" 
+return "☆》*Mυтє Aℓℓ* _Iѕ Aℓяєα∂у Eηαвℓє∂_🔇\n*_________________*\n*🎭Pwered By :* @Tm//_special" 
 elseif lang then
-return "☆》بیصدا کردن #همه  از قبل فعال است🔇\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+return "☆》بیصدا کردن #همه  از قبل فعال است🔇\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 else 
 data[tostring(target)]["settings"]["mute_all"] = "yes"
  save_data(_config.moderation.data, data) 
 if not lang then
-return "☆》*Mυтє Aℓℓ* _Hαѕ Bєєη Eηαвℓє∂_🔇\n*_________________*\n*🎭Pwered By :* @helpgramteam" 
+return "☆》*Mυтє Aℓℓ* _Hαѕ Bєєη Eηαвℓє∂_🔇\n*_________________*\n*🎭Pwered By :* @Tm//_special" 
 else
-return "☆》بیصدا کردن #همه فعال شد🔇\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+return "☆》بیصدا کردن #همه فعال شد🔇\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 end
 end
@@ -1613,17 +1613,17 @@ end
 local mute_all = data[tostring(target)]["settings"]["mute_all"] 
 if mute_all == "no" then 
 if not lang then
-return "☆》*Mυтє Aℓℓ* _Iѕ Aℓяєα∂у Dιѕαвℓє∂_🔊\n*_________________*\n*🎭Pwered By :* @helpgramteam" 
+return "☆》*Mυтє Aℓℓ* _Iѕ Aℓяєα∂у Dιѕαвℓє∂_🔊\n*_________________*\n*🎭Pwered By :* @Tm//_special" 
 elseif lang then
-return "☆》بیصدا کردن #همه فعال نیست🔊\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+return "☆》بیصدا کردن #همه فعال نیست🔊\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 else 
 data[tostring(target)]["settings"]["mute_all"] = "no"
  save_data(_config.moderation.data, data) 
 if not lang then
-return "☆》*Mυтє Aℓℓ* _Hαѕ Bєєη Dιѕαвℓє∂_🔊\n*_________________*\n*🎭Pwered By :* @helpgramteam" 
+return "☆》*Mυтє Aℓℓ* _Hαѕ Bєєη Dιѕαвℓє∂_🔊\n*_________________*\n*🎭Pwered By :* @Tm//_special" 
 else
-return "☆》بیصدا کردن #همه غیر فعال شد🔊\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+return "☆》بیصدا کردن #همه غیر فعال شد🔊\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end 
 end
 end
@@ -1643,17 +1643,17 @@ end
 local mute_gif = data[tostring(target)]["settings"]["mute_gif"] 
 if mute_gif == "yes" then
 if not lang then
- return "☆》*Mυтє Gιƒ* _Iѕ Aℓяєα∂у Eηαвℓє∂_🔇\n*_________________*\n*🎭Pwered By :* @helpgramteam"
+ return "☆》*Mυтє Gιƒ* _Iѕ Aℓяєα∂у Eηαвℓє∂_🔇\n*_________________*\n*🎭Pwered By :* @Tm//_special"
 elseif lang then
- return "☆》بیصدا کردن #تصاویر متحرک  از قبل فعال است🔇\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+ return "☆》بیصدا کردن #تصاویر متحرک  از قبل فعال است🔇\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 else
  data[tostring(target)]["settings"]["mute_gif"] = "yes" 
 save_data(_config.moderation.data, data) 
 if not lang then 
- return "☆》*Mυтє Gιƒ* _Hαѕ Bєєη Eηαвℓє∂_🔇\n*_________________*\n*🎭Pwered By :* @helpgramteam"
+ return "☆》*Mυтє Gιƒ* _Hαѕ Bєєη Eηαвℓє∂_🔇\n*_________________*\n*🎭Pwered By :* @Tm//_special"
 else
- return "☆》بیصدا کردن #تصاویر متحرک فعال شد🔇\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+ return "☆》بیصدا کردن #تصاویر متحرک فعال شد🔇\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 end
 end
@@ -1672,17 +1672,17 @@ end
 local mute_gif = data[tostring(target)]["settings"]["mute_gif"]
  if mute_gif == "no" then
 if not lang then
-return "☆》*Mυтє Gιƒ* _Iѕ Aℓяєα∂у Dιѕαвℓє∂_🔊\n*_________________*\n*🎭Pwered By :* @helpgramteam" 
+return "☆》*Mυтє Gιƒ* _Iѕ Aℓяєα∂у Dιѕαвℓє∂_🔊\n*_________________*\n*🎭Pwered By :* @Tm//_special" 
 elseif lang then
-return "☆》بیصدا کردن #تصاویر متحرک فعال نیست🔊\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+return "☆》بیصدا کردن #تصاویر متحرک فعال نیست🔊\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 else 
 data[tostring(target)]["settings"]["mute_gif"] = "no"
  save_data(_config.moderation.data, data) 
 if not lang then
-return "☆》*Mυтє Gιƒ* _Hαѕ Bєєη Dιѕαвℓє∂_🔊\n*_________________*\n*🎭Pwered By :* @helpgramteam" 
+return "☆》*Mυтє Gιƒ* _Hαѕ Bєєη Dιѕαвℓє∂_🔊\n*_________________*\n*🎭Pwered By :* @Tm//_special" 
 else
-return "☆》بیصدا کردن # تصاویر متحرک غیر فعال شد🔊\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+return "☆》بیصدا کردن # تصاویر متحرک غیر فعال شد🔊\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 end
 end
@@ -1701,17 +1701,17 @@ end
 local mute_game = data[tostring(target)]["settings"]["mute_game"] 
 if mute_game == "yes" then
 if not lang then
- return "☆》*Mυтє Gαмє* _Iѕ Aℓяєα∂у Eηαвℓє∂_🔇\n*_________________*\n*🎭Pwered By :* @helpgramteam"
+ return "☆》*Mυтє Gαмє* _Iѕ Aℓяєα∂у Eηαвℓє∂_🔇\n*_________________*\n*🎭Pwered By :* @Tm//_special"
 elseif lang then
- return "☆》بیصدا کردن #بازی های تحت وب  از قبل فعال است🔇\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+ return "☆》بیصدا کردن #بازی های تحت وب  از قبل فعال است🔇\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 else
  data[tostring(target)]["settings"]["mute_game"] = "yes" 
 save_data(_config.moderation.data, data) 
 if not lang then
- return "☆》*Mυтє Gαмє* _Hαѕ Bєєη Eηαвℓє∂_🔇\n*_________________*\n*🎭Pwered By :* @helpgramteam"
+ return "☆》*Mυтє Gαмє* _Hαѕ Bєєη Eηαвℓє∂_🔇\n*_________________*\n*🎭Pwered By :* @Tm//_special"
 else
- return "☆》بیصدا کردن #بازی های تحت وب   فعال شد🔇\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+ return "☆》بیصدا کردن #بازی های تحت وب   فعال شد🔇\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 end
 end
@@ -1730,17 +1730,17 @@ end
 local mute_game = data[tostring(target)]["settings"]["mute_game"]
  if mute_game == "no" then
 if not lang then
-return "☆》*Mυтє Gαмє* _Iѕ Aℓяєα∂у Dιѕαвℓє∂_🔊\n*_________________*\n*🎭Pwered By :* @helpgramteam" 
+return "☆》*Mυтє Gαмє* _Iѕ Aℓяєα∂у Dιѕαвℓє∂_🔊\n*_________________*\n*🎭Pwered By :* @Tm//_special" 
 elseif lang then
-return "☆》بیصدا کردن #بازی های تحت وب   فعال نیست🔊\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+return "☆》بیصدا کردن #بازی های تحت وب   فعال نیست🔊\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 else 
 data[tostring(target)]["settings"]["mute_game"] = "no"
  save_data(_config.moderation.data, data)
 if not lang then 
-return "☆》*Mυтє Gαмє* _Hαѕ Bєєη Dιѕαвℓє∂_🔊\n*_________________*\n*🎭Pwered By :* @helpgramteam" 
+return "☆》*Mυтє Gαмє* _Hαѕ Bєєη Dιѕαвℓє∂_🔊\n*_________________*\n*🎭Pwered By :* @Tm//_special" 
 else
-return "☆》بیصدا کردن #بازی های تحت وب  غیر فعال شد🔊\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+return "☆》بیصدا کردن #بازی های تحت وب  غیر فعال شد🔊\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 end
 end
@@ -1759,17 +1759,17 @@ end
 local mute_inline = data[tostring(target)]["settings"]["mute_inline"] 
 if mute_inline == "yes" then
 if not lang then
- return "☆》*Mυтє Iηℓιηє* _Iѕ Aℓяєα∂у Eηαвℓє∂_🔇\n*_________________*\n*🎭Pwered By :* @helpgramteam"
+ return "☆》*Mυтє Iηℓιηє* _Iѕ Aℓяєα∂у Eηαвℓє∂_🔇\n*_________________*\n*🎭Pwered By :* @Tm//_special"
 elseif lang then
- return "☆》بیصدا کردن #کیبورد شیشه ای از قبل فعال است🔊\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+ return "☆》بیصدا کردن #کیبورد شیشه ای از قبل فعال است🔊\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 else
  data[tostring(target)]["settings"]["mute_inline"] = "yes" 
 save_data(_config.moderation.data, data) 
 if not lang then
- return "☆》*Mυтє Iηℓιηє* _Hαѕ Bєєη Eηαвℓє∂_🔇\n*_________________*\n*🎭Pwered By :* @helpgramteam"
+ return "☆》*Mυтє Iηℓιηє* _Hαѕ Bєєη Eηαвℓє∂_🔇\n*_________________*\n*🎭Pwered By :* @Tm//_special"
 else
- return "☆》بیصدا کردن #کیبورد شیشه ای فعال شد🔇\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+ return "☆》بیصدا کردن #کیبورد شیشه ای فعال شد🔇\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 end
 end
@@ -1788,17 +1788,17 @@ end
 local mute_inline = data[tostring(target)]["settings"]["mute_inline"]
  if mute_inline == "no" then
 if not lang then
-return "☆》*Mυтє Iηℓιηє* _Iѕ Aℓяєα∂у Dιѕαвℓє∂_🔊\n*_________________*\n*🎭Pwered By :* @helpgramteam" 
+return "☆》*Mυтє Iηℓιηє* _Iѕ Aℓяєα∂у Dιѕαвℓє∂_🔊\n*_________________*\n*🎭Pwered By :* @Tm//_special" 
 elseif lang then
-return "☆》بیصدا کردن #کیبورد شیشه ای فعال نیست🔊\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+return "☆》بیصدا کردن #کیبورد شیشه ای فعال نیست🔊\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 else 
 data[tostring(target)]["settings"]["mute_inline"] = "no"
  save_data(_config.moderation.data, data) 
 if not lang then
-return "☆》*Mυтє Iηℓιηє* _Hαѕ Bєєη Dιѕαвℓє∂_🔊\n*_________________*\n*🎭Pwered By :* @helpgramteam" 
+return "☆》*Mυтє Iηℓιηє* _Hαѕ Bєєη Dιѕαвℓє∂_🔊\n*_________________*\n*🎭Pwered By :* @Tm//_special" 
 else
-return "☆》بیصدا کردن #کیبورد شیشه ای  غیر فعال شد🔊\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+return "☆》بیصدا کردن #کیبورد شیشه ای  غیر فعال شد🔊\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 end
 end
@@ -1817,17 +1817,17 @@ end
 local mute_text = data[tostring(target)]["settings"]["mute_text"] 
 if mute_text == "yes" then
 if not lang then
- return "☆》*Mυтє Tєχт* _Iѕ Aℓяєα∂у Eηαвℓє∂_🔇\n*_________________*\n*🎭Pwered By :* @helpgramteam"
+ return "☆》*Mυтє Tєχт* _Iѕ Aℓяєα∂у Eηαвℓє∂_🔇\n*_________________*\n*🎭Pwered By :* @Tm//_special"
 elseif lang then
- return "☆》بیصدا کردن #متن  از قبل فعال است🔇\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+ return "☆》بیصدا کردن #متن  از قبل فعال است🔇\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 else
  data[tostring(target)]["settings"]["mute_text"] = "yes" 
 save_data(_config.moderation.data, data) 
 if not lang then
- return "☆》*Mυтє Tєχт* _Hαѕ Bєєη Eηαвℓє∂_🔇\n*_________________*\n*🎭Pwered By :* @helpgramteam"
+ return "☆》*Mυтє Tєχт* _Hαѕ Bєєη Eηαвℓє∂_🔇\n*_________________*\n*🎭Pwered By :* @Tm//_special"
 else
- return "☆》بیصدا کردن #متن فعال شد🔇\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+ return "☆》بیصدا کردن #متن فعال شد🔇\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 end
 end
@@ -1846,17 +1846,17 @@ end
 local mute_text = data[tostring(target)]["settings"]["mute_text"]
  if mute_text == "no" then
 if not lang then
-return "☆》*Mυтє Tєχт* _Iѕ Aℓяєα∂у Dιѕαвℓє∂_🔊\n*_________________*\n*🎭Pwered By :* @helpgramteam"
+return "☆》*Mυтє Tєχт* _Iѕ Aℓяєα∂у Dιѕαвℓє∂_🔊\n*_________________*\n*🎭Pwered By :* @Tm//_special"
 elseif lang then
-return "☆》بیصدا کردن # متن فعال نیست🔊\n*_________________*\n*🎭برنامه نویس :* @helpgramteam" 
+return "☆》بیصدا کردن # متن فعال نیست🔊\n*_________________*\n*🎭برنامه نویس :* @Tm//_special" 
 end
 else 
 data[tostring(target)]["settings"]["mute_text"] = "no"
  save_data(_config.moderation.data, data) 
 if not lang then
-return "☆》*Mυтє Tєχт* _Hαѕ Bєєη Dιѕαвℓє∂_🔊\n*_________________*\n*🎭Pwered By :* @helpgramteam" 
+return "☆》*Mυтє Tєχт* _Hαѕ Bєєη Dιѕαвℓє∂_🔊\n*_________________*\n*🎭Pwered By :* @Tm//_special" 
 else
-return "☆》بیصدا کردن # متن غیر فعال شد🔊\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+return "☆》بیصدا کردن # متن غیر فعال شد🔊\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 end
 end
@@ -1875,17 +1875,17 @@ end
 local mute_photo = data[tostring(target)]["settings"]["mute_photo"] 
 if mute_photo == "yes" then
 if not lang then
- return "☆》*Mυтє Pнσтσ* _Iѕ Aℓяєα∂у Eηαвℓє∂_🔇\n*_________________*\n*🎭Pwered By :* @helpgramteam"
+ return "☆》*Mυтє Pнσтσ* _Iѕ Aℓяєα∂у Eηαвℓє∂_🔇\n*_________________*\n*🎭Pwered By :* @Tm//_special"
 elseif lang then
- return "☆》بیصدا کردن #عکس  از قبل فعال است🔇\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+ return "☆》بیصدا کردن #عکس  از قبل فعال است🔇\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 else
  data[tostring(target)]["settings"]["mute_photo"] = "yes" 
 save_data(_config.moderation.data, data) 
 if not lang then
- return "☆》*Mυтє Pнσтσ* _Hαѕ Bєєη Eηαвℓє∂_🔇\n*_________________*\n*🎭Pwered By :* @helpgramteam"
+ return "☆》*Mυтє Pнσтσ* _Hαѕ Bєєη Eηαвℓє∂_🔇\n*_________________*\n*🎭Pwered By :* @Tm//_special"
 else
- return "☆》بیصدا کردن #عکس فعال شد🔇\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+ return "☆》بیصدا کردن #عکس فعال شد🔇\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 end
 end
@@ -1904,17 +1904,17 @@ end
 local mute_photo = data[tostring(target)]["settings"]["mute_photo"]
  if mute_photo == "no" then
 if not lang then
-return "☆》*Mυтє Pнσтσ* _Iѕ Aℓяєα∂у Dιѕαвℓє∂_🔊\n*_________________*\n*🎭Pwered By :* @helpgramteam" 
+return "☆》*Mυтє Pнσтσ* _Iѕ Aℓяєα∂у Dιѕαвℓє∂_🔊\n*_________________*\n*🎭Pwered By :* @Tm//_special" 
 elseif lang then
-return "☆》بیصدا کردن #عکس فعال نیست🔊\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+return "☆》بیصدا کردن #عکس فعال نیست🔊\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 else 
 data[tostring(target)]["settings"]["mute_photo"] = "no"
  save_data(_config.moderation.data, data) 
 if not lang then
-return "☆》*Mυтє Pнσтσ* _Hαѕ Bєєη Dιѕαвℓє∂_🔊\n*_________________*\n*🎭Pwered By :* @helpgramteam" 
+return "☆》*Mυтє Pнσтσ* _Hαѕ Bєєη Dιѕαвℓє∂_🔊\n*_________________*\n*🎭Pwered By :* @Tm//_special" 
 else
-return "☆》بیصدا کردن # عکس غیر فعال شد🔊\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+return "☆》بیصدا کردن # عکس غیر فعال شد🔊\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 end
 end
@@ -1933,17 +1933,17 @@ end
 local mute_video = data[tostring(target)]["settings"]["mute_video"] 
 if mute_video == "yes" then
 if not lang then
- return "☆》*Mυтє Vι∂єσ* _Iѕ Aℓяєα∂у Eηαвℓє∂_🔇\n*_________________*\n*🎭Pwered By :* @helpgramteam"
+ return "☆》*Mυтє Vι∂єσ* _Iѕ Aℓяєα∂у Eηαвℓє∂_🔇\n*_________________*\n*🎭Pwered By :* @Tm//_special"
 elseif lang then
- return "☆》بیصدا کردن #ویدیو  از قبل فعال است🔇\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+ return "☆》بیصدا کردن #ویدیو  از قبل فعال است🔇\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 else
  data[tostring(target)]["settings"]["mute_video"] = "yes" 
 save_data(_config.moderation.data, data)
 if not lang then 
- return "☆》*Mυтє Vι∂єσ* _Hαѕ Bєєη Eηαвℓє∂_🔇\n*_________________*\n*🎭Pwered By :* @helpgramteam"
+ return "☆》*Mυтє Vι∂єσ* _Hαѕ Bєєη Eηαвℓє∂_🔇\n*_________________*\n*🎭Pwered By :* @Tm//_special"
 else
- return "☆》بیصدا کردن #ویدیو فعال شد🔇\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+ return "☆》بیصدا کردن #ویدیو فعال شد🔇\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 end
 end
@@ -1962,17 +1962,17 @@ end
 local mute_video = data[tostring(target)]["settings"]["mute_video"]
  if mute_video == "no" then
 if not lang then
-return "☆》*Mυтє Vι∂єσ* _Iѕ Aℓяєα∂у Dιѕαвℓє∂_🔊\n*_________________*\n*🎭Pwered By :* @helpgramteam" 
+return "☆》*Mυтє Vι∂єσ* _Iѕ Aℓяєα∂у Dιѕαвℓє∂_🔊\n*_________________*\n*🎭Pwered By :* @Tm//_special" 
 elseif lang then
-return "☆》بیصدا کردن #ویدیو فعال نیست🔊\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+return "☆》بیصدا کردن #ویدیو فعال نیست🔊\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 else 
 data[tostring(target)]["settings"]["mute_video"] = "no"
  save_data(_config.moderation.data, data) 
 if not lang then
-return "☆》*Mυтє Vι∂єσ* _Hαѕ Bєєη Dιѕαвℓє∂_🔊\n*_________________*\n*🎭Pwered By :* @helpgramteam" 
+return "☆》*Mυтє Vι∂єσ* _Hαѕ Bєєη Dιѕαвℓє∂_🔊\n*_________________*\n*🎭Pwered By :* @Tm//_special" 
 else
-return "☆》بیصدا کردن #ویدیو غیر فعال شد🔊\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+return "☆》بیصدا کردن #ویدیو غیر فعال شد🔊\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 end
 end
@@ -1991,17 +1991,17 @@ end
 local mute_audio = data[tostring(target)]["settings"]["mute_audio"] 
 if mute_audio == "yes" then
 if not lang then
- return "☆》*Mυтє Aυ∂ισ* _Iѕ Aℓяєα∂у Eηαвℓє∂_🔇\n*_________________*\n*🎭Pwered By :* @helpgramteam"
+ return "☆》*Mυтє Aυ∂ισ* _Iѕ Aℓяєα∂у Eηαвℓє∂_🔇\n*_________________*\n*🎭Pwered By :* @Tm//_special"
 elseif lang then
- return "☆》بیصدا کردن #اهنگ  از قبل فعال است🔇\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+ return "☆》بیصدا کردن #اهنگ  از قبل فعال است🔇\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 else
  data[tostring(target)]["settings"]["mute_audio"] = "yes" 
 save_data(_config.moderation.data, data) 
 if not lang then
- return "☆》*Mυтє Aυ∂ισ* _Hαѕ Bєєη Eηαвℓє∂_🔇\n*_________________*\n*🎭Pwered By :* @helpgramteam"
+ return "☆》*Mυтє Aυ∂ισ* _Hαѕ Bєєη Eηαвℓє∂_🔇\n*_________________*\n*🎭Pwered By :* @Tm//_special"
 else 
-return "☆》بیصدا کردن #اهنگ فعال شد🔇\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+return "☆》بیصدا کردن #اهنگ فعال شد🔇\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 end
 end
@@ -2020,17 +2020,17 @@ end
 local mute_audio = data[tostring(target)]["settings"]["mute_audio"]
  if mute_audio == "no" then
 if not lang then
-return "☆》*Mυтє Aυ∂ισ* _Iѕ Aℓяєα∂у Dιѕαвℓє∂_🔊\n*_________________*\n*🎭Pwered By :* @helpgramteam" 
+return "☆》*Mυтє Aυ∂ισ* _Iѕ Aℓяєα∂у Dιѕαвℓє∂_🔊\n*_________________*\n*🎭Pwered By :* @Tm//_special" 
 elseif lang then
-return "☆》بیصدا کردن #اهنگ فعال نیست🔊\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+return "☆》بیصدا کردن #اهنگ فعال نیست🔊\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 else 
 data[tostring(target)]["settings"]["mute_audio"] = "no"
  save_data(_config.moderation.data, data)
 if not lang then 
-return "☆》*Mυтє Aυ∂ισ* _Hαѕ Bєєη Dιѕαвℓє∂_🔊\n*_________________*\n*🎭Pwered By :* @helpgramteam"
+return "☆》*Mυтє Aυ∂ισ* _Hαѕ Bєєη Dιѕαвℓє∂_🔊\n*_________________*\n*🎭Pwered By :* @Tm//_special"
 else
-return "☆》بیصدا کردن #اهنگ غیر فعال شد🔊\n*_________________*\n*🎭برنامه نویس :* @helpgramteam" 
+return "☆》بیصدا کردن #اهنگ غیر فعال شد🔊\n*_________________*\n*🎭برنامه نویس :* @Tm//_special" 
 end
 end
 end
@@ -2049,17 +2049,17 @@ end
 local mute_voice = data[tostring(target)]["settings"]["mute_voice"] 
 if mute_voice == "yes" then
 if not lang then
- return "☆》*Mυтє Vσιcє* _Iѕ Aℓяєα∂у Eηαвℓє∂_🔇\n*_________________*\n*🎭Pwered By :* @helpgramteam"
+ return "☆》*Mυтє Vσιcє* _Iѕ Aℓяєα∂у Eηαвℓє∂_🔇\n*_________________*\n*🎭Pwered By :* @Tm//_special"
 elseif lang then
- return "☆》بیصدا کردن #صدا (وویس)  از قبل فعال است🔇\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+ return "☆》بیصدا کردن #صدا (وویس)  از قبل فعال است🔇\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 else
  data[tostring(target)]["settings"]["mute_voice"] = "yes" 
 save_data(_config.moderation.data, data) 
 if not lang then
- return "☆》*Mυтє Vσιcє* _Hαѕ Bєєη Eηαвℓє∂_🔇\n*_________________*\n*🎭Pwered By :* @helpgramteam"
+ return "☆》*Mυтє Vσιcє* _Hαѕ Bєєη Eηαвℓє∂_🔇\n*_________________*\n*🎭Pwered By :* @Tm//_special"
 else
- return "☆》بیصدا کردن #صدا (وویس)  فعال شد🔇\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+ return "☆》بیصدا کردن #صدا (وویس)  فعال شد🔇\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 end
 end
@@ -2078,17 +2078,17 @@ end
 local mute_voice = data[tostring(target)]["settings"]["mute_voice"]
  if mute_voice == "no" then
 if not lang then
-return "☆》*Mυтє Vσιcє* _Iѕ Aℓяєα∂у Dιѕαвℓє∂_🔊\n*_________________*\n*🎭Pwered By :* @helpgramteam" 
+return "☆》*Mυтє Vσιcє* _Iѕ Aℓяєα∂у Dιѕαвℓє∂_🔊\n*_________________*\n*🎭Pwered By :* @Tm//_special" 
 elseif lang then
-return "☆》بیصدا کردن #صدا (وویس) فعال نیست🔊\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+return "☆》بیصدا کردن #صدا (وویس) فعال نیست🔊\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 else 
 data[tostring(target)]["settings"]["mute_voice"] = "no"
  save_data(_config.moderation.data, data)
 if not lang then 
-return "☆》*Mυтє Vσιcє* _Hαѕ Bєєη Dιѕαвℓє∂_🔊\n*_________________*\n*🎭Pwered By :* @helpgramteam" 
+return "☆》*Mυтє Vσιcє* _Hαѕ Bєєη Dιѕαвℓє∂_🔊\n*_________________*\n*🎭Pwered By :* @Tm//_special" 
 else
-return "☆》بیصدا کردن #صدا (وویس) غیر فعال شد🔊\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+return "☆》بیصدا کردن #صدا (وویس) غیر فعال شد🔊\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 end
 end
@@ -2107,17 +2107,17 @@ end
 local mute_sticker = data[tostring(target)]["settings"]["mute_sticker"] 
 if mute_sticker == "yes" then
 if not lang then
- return "☆》*Mυтє Sтιcкєя* _Iѕ Aℓяєα∂у Eηαвℓє∂_🔇\n*_________________*\n*🎭Pwered By :* @helpgramteam"
+ return "☆》*Mυтє Sтιcкєя* _Iѕ Aℓяєα∂у Eηαвℓє∂_🔇\n*_________________*\n*🎭Pwered By :* @Tm//_special"
 elseif lang then
- return "☆》بیصدا کردن #استیکر  از قبل فعال است🔇\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+ return "☆》بیصدا کردن #استیکر  از قبل فعال است🔇\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 else
  data[tostring(target)]["settings"]["mute_sticker"] = "yes" 
 save_data(_config.moderation.data, data) 
 if not lang then
- return "☆》*Mυтє Sтιcкєя* _Hαѕ Bєєη Eηαвℓє∂_🔇\n*_________________*\n*🎭Pwered By :* @helpgramteam"
+ return "☆》*Mυтє Sтιcкєя* _Hαѕ Bєєη Eηαвℓє∂_🔇\n*_________________*\n*🎭Pwered By :* @Tm//_special"
 else
- return "☆》بیصدا کردن #استیکر فعال شد🔇\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+ return "☆》بیصدا کردن #استیکر فعال شد🔇\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 end
 end
@@ -2136,17 +2136,17 @@ end
 local mute_sticker = data[tostring(target)]["settings"]["mute_sticker"]
  if mute_sticker == "no" then
 if not lang then
-return "☆》*Mυтє Sтιcкєя* _Iѕ Aℓяєα∂у Dιѕαвℓє∂_🔊\n*_________________*\n*🎭Pwered By :* @helpgramteam" 
+return "☆》*Mυтє Sтιcкєя* _Iѕ Aℓяєα∂у Dιѕαвℓє∂_🔊\n*_________________*\n*🎭Pwered By :* @Tm//_special" 
 elseif lang then
-return "☆》بیصدا کردن #استیکر فعال نیست🔊\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+return "☆》بیصدا کردن #استیکر فعال نیست🔊\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 else 
 data[tostring(target)]["settings"]["mute_sticker"] = "no"
  save_data(_config.moderation.data, data)
 if not lang then 
-return "☆》*Mυтє Sтιcкєя* _Hαѕ Bєєη Dιѕαвℓє∂_🔊\n*_________________*\n*🎭Pwered By :* @helpgramteam"
+return "☆》*Mυтє Sтιcкєя* _Hαѕ Bєєη Dιѕαвℓє∂_🔊\n*_________________*\n*🎭Pwered By :* @Tm//_special"
 else
-return "☆》بیصدا کردن #استیکر غیر فعال شد🔊\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+return "☆》بیصدا کردن #استیکر غیر فعال شد🔊\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end 
 end
 end
@@ -2165,17 +2165,17 @@ end
 local mute_contact = data[tostring(target)]["settings"]["mute_contact"] 
 if mute_contact == "yes" then
 if not lang then
- return "☆》*Mυтє Cσηтαcт* _Iѕ Aℓяєα∂у Eηαвℓє∂_🔇\n*_________________*\n*🎭Pwered By :* @helpgramteam"
+ return "☆》*Mυтє Cσηтαcт* _Iѕ Aℓяєα∂у Eηαвℓє∂_🔇\n*_________________*\n*🎭Pwered By :* @Tm//_special"
 elseif lang then
- return "☆》بیصدا کردن #ارسال مخاطب  از قبل فعال است🔇\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+ return "☆》بیصدا کردن #ارسال مخاطب  از قبل فعال است🔇\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 else
  data[tostring(target)]["settings"]["mute_contact"] = "yes" 
 save_data(_config.moderation.data, data) 
 if not lang then
- return "☆》*Mυтє Cσηтαcт* _Hαѕ Bєєη Eηαвℓє∂_🔇\n*_________________*\n*🎭Pwered By :* @helpgramteam"
+ return "☆》*Mυтє Cσηтαcт* _Hαѕ Bєєη Eηαвℓє∂_🔇\n*_________________*\n*🎭Pwered By :* @Tm//_special"
 else
- return "☆》بیصدا کردن #ارسال مخاطب فعال شد🔇\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+ return "☆》بیصدا کردن #ارسال مخاطب فعال شد🔇\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 end
 end
@@ -2194,17 +2194,17 @@ end
 local mute_contact = data[tostring(target)]["settings"]["mute_contact"]
  if mute_contact == "no" then
 if not lang then
-return "☆》*Mυтє Cσηтαcт* _Iѕ Aℓяєα∂у Dιѕαвℓє∂_🔊\n*_________________*\n*🎭Pwered By :* @helpgramteam" 
+return "☆》*Mυтє Cσηтαcт* _Iѕ Aℓяєα∂у Dιѕαвℓє∂_🔊\n*_________________*\n*🎭Pwered By :* @Tm//_special" 
 elseif lang then
-return "☆》بیصدا کردن #ارسال مخطب فعال نیست🔊\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+return "☆》بیصدا کردن #ارسال مخطب فعال نیست🔊\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 else 
 data[tostring(target)]["settings"]["mute_contact"] = "no"
  save_data(_config.moderation.data, data) 
 if not lang then
-return "☆》*Mυтє Cσηтαcт* _Hαѕ Bєєη Dιѕαвℓє∂_🔊\n*_________________*\n*🎭Pwered By :* @helpgramteam" 
+return "☆》*Mυтє Cσηтαcт* _Hαѕ Bєєη Dιѕαвℓє∂_🔊\n*_________________*\n*🎭Pwered By :* @Tm//_special" 
 else
-return "☆》بیصدا کردن #ارسال مخاطب غیر فعال شد🔊\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+return "☆》بیصدا کردن #ارسال مخاطب غیر فعال شد🔊\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 end
 end
@@ -2223,17 +2223,17 @@ end
 local mute_forward = data[tostring(target)]["settings"]["mute_forward"] 
 if mute_forward == "yes" then
 if not lang then
- return "☆》*Mυтє Fσяωαя∂* _Iѕ Aℓяєα∂у Eηαвℓє∂_🔇\n*_________________*\n*🎭Pwered By :* @helpgramteam"
+ return "☆》*Mυтє Fσяωαя∂* _Iѕ Aℓяєα∂у Eηαвℓє∂_🔇\n*_________________*\n*🎭Pwered By :* @Tm//_special"
 elseif lang then
- return "☆》بیصدا کردن #فوروارد از قبل فعال است🔇\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+ return "☆》بیصدا کردن #فوروارد از قبل فعال است🔇\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 else
  data[tostring(target)]["settings"]["mute_forward"] = "yes" 
 save_data(_config.moderation.data, data) 
 if not lang then
- return "☆》*Mυтє Fσяωαя∂* _Hαѕ Bєєη Eηαвℓє∂_🔇\n*_________________*\n*🎭Pwered By :* @helpgramteam"
+ return "☆》*Mυтє Fσяωαя∂* _Hαѕ Bєєη Eηαвℓє∂_🔇\n*_________________*\n*🎭Pwered By :* @Tm//_special"
 else
- return "☆》بیصدا کردن #فوروارد فعال شد🔇\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+ return "☆》بیصدا کردن #فوروارد فعال شد🔇\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 end
 end
@@ -2252,17 +2252,17 @@ end
 local mute_forward = data[tostring(target)]["settings"]["mute_forward"]
  if mute_forward == "no" then
 if not lang then
-return "☆》*Mυтє Fσяωαя∂* _Iѕ Aℓяєα∂у Dιѕαвℓє∂_🔊\n*_________________*\n*🎭Pwered By :* @helpgramteam"
+return "☆》*Mυтє Fσяωαя∂* _Iѕ Aℓяєα∂у Dιѕαвℓє∂_🔊\n*_________________*\n*🎭Pwered By :* @Tm//_special"
 elseif lang then
-return "☆》بیصدا کردن #فوروارد فعال نیست🔊\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+return "☆》بیصدا کردن #فوروارد فعال نیست🔊\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end 
 else 
 data[tostring(target)]["settings"]["mute_forward"] = "no"
  save_data(_config.moderation.data, data)
 if not lang then 
-return "☆》*Mυтє Fσяωαя∂* _Hαѕ Bєєη Dιѕαвℓє∂_🔊\n*_________________*\n*🎭Pwered By :* @helpgramteam" 
+return "☆》*Mυтє Fσяωαя∂* _Hαѕ Bєєη Dιѕαвℓє∂_🔊\n*_________________*\n*🎭Pwered By :* @Tm//_special" 
 else
-return "☆》بیصدا کردن #فوروارد غیر فعال شد🔊\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+return "☆》بیصدا کردن #فوروارد غیر فعال شد🔊\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 end
 end
@@ -2281,17 +2281,17 @@ end
 local mute_location = data[tostring(target)]["settings"]["mute_location"] 
 if mute_location == "yes" then
 if not lang then
- return "☆》*Mυтє Lσcαтιση* _Iѕ Aℓяєα∂у Eηαвℓє∂_🔇\n*_________________*\n*🎭Pwered By :* @helpgramteam"
+ return "☆》*Mυтє Lσcαтιση* _Iѕ Aℓяєα∂у Eηαвℓє∂_🔇\n*_________________*\n*🎭Pwered By :* @Tm//_special"
 elseif lang then
- return "☆》بیصدا کردن #موقعیت  از قبل فعال است🔇\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+ return "☆》بیصدا کردن #موقعیت  از قبل فعال است🔇\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 else
  data[tostring(target)]["settings"]["mute_location"] = "yes" 
 save_data(_config.moderation.data, data)
 if not lang then
- return "☆》*Mυтє Lσcαтιση* _Hαѕ Bєєη Eηαвℓє∂_🔇\n*_________________*\n*🎭Pwered By :* @helpgramteam"
+ return "☆》*Mυтє Lσcαтιση* _Hαѕ Bєєη Eηαвℓє∂_🔇\n*_________________*\n*🎭Pwered By :* @Tm//_special"
 else
- return "☆》بیصدا کردن #موقعیت فعال شد🔇\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+ return "☆》بیصدا کردن #موقعیت فعال شد🔇\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 end
 end
@@ -2310,17 +2310,17 @@ end
 local mute_location = data[tostring(target)]["settings"]["mute_location"]
  if mute_location == "no" then
 if not lang then
-return "☆》*Mυтє Lσcαтιση* _Iѕ Aℓяєα∂у Dιѕαвℓє∂_🔊\n*_________________*\n*🎭Pwered By :* @helpgramteam" 
+return "☆》*Mυтє Lσcαтιση* _Iѕ Aℓяєα∂у Dιѕαвℓє∂_🔊\n*_________________*\n*🎭Pwered By :* @Tm//_special" 
 elseif lang then
-return "☆》بیصدا کردن #موقعیت فعال نیست🔊\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+return "☆》بیصدا کردن #موقعیت فعال نیست🔊\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 else 
 data[tostring(target)]["settings"]["mute_location"] = "no"
  save_data(_config.moderation.data, data) 
 if not lang then
-return "☆》*Mυтє Lσcαтιση* _Hαѕ Bєєη Dιѕαвℓє∂_🔊\n*_________________*\n*🎭Pwered By :* @helpgramteam" 
+return "☆》*Mυтє Lσcαтιση* _Hαѕ Bєєη Dιѕαвℓє∂_🔊\n*_________________*\n*🎭Pwered By :* @Tm//_special" 
 else
-return "☆》بیصدا کردن #موقعیت غیر فعال شد🔊\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+return "☆》بیصدا کردن #موقعیت غیر فعال شد🔊\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 end
 end
@@ -2339,17 +2339,17 @@ end
 local mute_document = data[tostring(target)]["settings"]["mute_document"] 
 if mute_document == "yes" then
 if not lang then
- return "☆》*Mυтє Dσcυмєηт* _Iѕ Aℓяєα∂у Eηαвℓє∂_🔇\n*_________________*\n*🎭Pwered By :* @helpgramteam"
+ return "☆》*Mυтє Dσcυмєηт* _Iѕ Aℓяєα∂у Eηαвℓє∂_🔇\n*_________________*\n*🎭Pwered By :* @Tm//_special"
 elseif lang then
- return "☆》بیصدا کردن #اسناد  از قبل فعال است🔇\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+ return "☆》بیصدا کردن #اسناد  از قبل فعال است🔇\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 else
  data[tostring(target)]["settings"]["mute_document"] = "yes" 
 save_data(_config.moderation.data, data) 
 if not lang then
- return "☆》*Mυтє Dσcυмєηт* _Hαѕ Bєєη Eηαвℓє∂_🔇\n*_________________*\n*🎭Pwered By :* @helpgramteam"
+ return "☆》*Mυтє Dσcυмєηт* _Hαѕ Bєєη Eηαвℓє∂_🔇\n*_________________*\n*🎭Pwered By :* @Tm//_special"
 else
- return "☆》بیصدا کردن #اسناد فعال شد🔇\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+ return "☆》بیصدا کردن #اسناد فعال شد🔇\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 end
 end
@@ -2368,17 +2368,17 @@ end
 local mute_document = data[tostring(target)]["settings"]["mute_document"]
  if mute_document == "no" then
 if not lang then
-return "☆》*Mυтє Dσcυмєηт* _Iѕ Aℓяєα∂у Dιѕαвℓє∂_🔊\n*_________________*\n*🎭Pwered By :* @helpgramteam" 
+return "☆》*Mυтє Dσcυмєηт* _Iѕ Aℓяєα∂у Dιѕαвℓє∂_🔊\n*_________________*\n*🎭Pwered By :* @Tm//_special" 
 elseif lang then
-return "☆》بیصدا کردن #اسناد فعال نیست🔊\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+return "☆》بیصدا کردن #اسناد فعال نیست🔊\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 else 
 data[tostring(target)]["settings"]["mute_document"] = "no"
  save_data(_config.moderation.data, data) 
 if not lang then
-return "☆》*Mυтє Dσcυмєηт* _Hαѕ Bєєη Dιѕαвℓє∂_🔊\n*_________________*\n*🎭Pwered By :* @helpgramteam" 
+return "☆》*Mυтє Dσcυмєηт* _Hαѕ Bєєη Dιѕαвℓє∂_🔊\n*_________________*\n*🎭Pwered By :* @Tm//_special" 
 else
-return "☆》بیصدا کردن #اسناد غیر فعال شد🔊\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+return "☆》بیصدا کردن #اسناد غیر فعال شد🔊\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 end
 end
@@ -2397,17 +2397,17 @@ end
 local mute_tgservice = data[tostring(target)]["settings"]["mute_tgservice"] 
 if mute_tgservice == "yes" then
 if not lang then
- return "☆》*Mυтє TgSєяνιcє* _Iѕ Aℓяєα∂у Eηαвℓє∂_🔇\n*_________________*\n*🎭Pwered By :* @helpgramteam"
+ return "☆》*Mυтє TgSєяνιcє* _Iѕ Aℓяєα∂у Eηαвℓє∂_🔇\n*_________________*\n*🎭Pwered By :* @Tm//_special"
 elseif lang then
- return "☆》بیصدا کردن #خدمات تلگرام از قبل فعال است🔇\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+ return "☆》بیصدا کردن #خدمات تلگرام از قبل فعال است🔇\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 else
  data[tostring(target)]["settings"]["mute_tgservice"] = "yes" 
 save_data(_config.moderation.data, data) 
 if not lang then
- return "☆》*Mυтє TgSєяνιcє* _Hαѕ Bєєη Eηαвℓє∂_🔇\n*_________________*\n*🎭Pwered By :* @helpgramteam"
+ return "☆》*Mυтє TgSєяνιcє* _Hαѕ Bєєη Eηαвℓє∂_🔇\n*_________________*\n*🎭Pwered By :* @Tm//_special"
 else
-return "☆》بیصدا کردن #خدمات تلگرام  فعال شد🔇\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+return "☆》بیصدا کردن #خدمات تلگرام  فعال شد🔇\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 end
 end
@@ -2426,17 +2426,17 @@ end
 local mute_tgservice = data[tostring(target)]["settings"]["mute_tgservice"]
  if mute_tgservice == "no" then
 if not lang then
-return "☆》*Mυтє TgSєяνιcє* _Iѕ Aℓяєα∂у Dιѕαвℓє∂_🔊\n*_________________*\n*🎭Pwered By :* @helpgramteam"
+return "☆》*Mυтє TgSєяνιcє* _Iѕ Aℓяєα∂у Dιѕαвℓє∂_🔊\n*_________________*\n*🎭Pwered By :* @Tm//_special"
 elseif lang then
-return "☆》بیصدا کردن #خدمات تلگرام فعال نیست🔊\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+return "☆》بیصدا کردن #خدمات تلگرام فعال نیست🔊\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end 
 else 
 data[tostring(target)]["settings"]["mute_tgservice"] = "no"
  save_data(_config.moderation.data, data) 
 if not lang then
-return "☆》*Mυтє TgSєяνιcє* _Hαѕ Bєєη Dιѕαвℓє∂_🔊\n*_________________*\n*🎭Pwered By :* @helpgramteam"
+return "☆》*Mυтє TgSєяνιcє* _Hαѕ Bєєη Dιѕαвℓє∂_🔊\n*_________________*\n*🎭Pwered By :* @Tm//_special"
 else
-return "☆》بیصدا کردن #خدمات تلگرام  غیرفعال شد🔊\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+return "☆》بیصدا کردن #خدمات تلگرام  غیرفعال شد🔊\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end 
 end
 end
@@ -2456,17 +2456,17 @@ end
 local mute_keyboard = data[tostring(target)]["settings"]["mute_keyboard"] 
 if mute_keyboard == "yes" then
 if not lang then
- return "☆》*Mυтє Kєувσαя∂* _Iѕ Aℓяєα∂у Eηαвℓє∂_🔇\n*_________________*\n*🎭Pwered By :* @helpgramteam"
+ return "☆》*Mυтє Kєувσαя∂* _Iѕ Aℓяєα∂у Eηαвℓє∂_🔇\n*_________________*\n*🎭Pwered By :* @Tm//_special"
 elseif lang then
- return "☆》بیصدا کردن صفحه کلید فعال است🔇\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+ return "☆》بیصدا کردن صفحه کلید فعال است🔇\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 else
  data[tostring(target)]["settings"]["mute_keyboard"] = "yes" 
 save_data(_config.moderation.data, data) 
 if not lang then
- return "☆》*Mυтє Kєувσαя∂* _Hαѕ Bєєη Eηαвℓє∂_🔇\n*_________________*\n*🎭Pwered By :* @helpgramteam"
+ return "☆》*Mυтє Kєувσαя∂* _Hαѕ Bєєη Eηαвℓє∂_🔇\n*_________________*\n*🎭Pwered By :* @Tm//_special"
 else
-return "☆》بیصدا کردن صفحه کلید فعال شد🔇\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+return "☆》بیصدا کردن صفحه کلید فعال شد🔇\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end
 end
 end
@@ -2485,17 +2485,17 @@ end
 local mute_keyboard = data[tostring(target)]["settings"]["mute_keyboard"]
  if mute_keyboard == "no" then
 if not lang then
-return "☆》*Mυтє Kєувσαя∂* _Iѕ Aℓяєα∂у Dιѕαвℓє∂_🔊\n*_________________*\n*🎭Pwered By :* @helpgramteam"
+return "☆》*Mυтє Kєувσαя∂* _Iѕ Aℓяєα∂у Dιѕαвℓє∂_🔊\n*_________________*\n*🎭Pwered By :* @Tm//_special"
 elseif lang then
-return "☆》بیصدا کردن صفحه کلید غیرفعال است🔊\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+return "☆》بیصدا کردن صفحه کلید غیرفعال است🔊\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end 
 else 
 data[tostring(target)]["settings"]["mute_keyboard"] = "no"
  save_data(_config.moderation.data, data) 
 if not lang then
-return "☆》*Mυтє TgSєяνιcє* _Hαѕ Bєєη Dιѕαвℓє∂_🔊\n*_________________*\n*🎭Pwered By :* @helpgramteam"
+return "☆》*Mυтє TgSєяνιcє* _Hαѕ Bєєη Dιѕαвℓє∂_🔊\n*_________________*\n*🎭Pwered By :* @Tm//_special"
 else
-return "☆》بیصدا کردن صفحه کلید غیرفعال شد🔊\n*_________________*\n*🎭برنامه نویس :* @helpgramteam"
+return "☆》بیصدا کردن صفحه کلید غیرفعال شد🔊\n*_________________*\n*🎭برنامه نویس :* @Tm//_special"
 end 
 end
 end
@@ -2729,7 +2729,7 @@ end
 end
 if not lang then
 local settings = data[tostring(target)]["settings"] 
- text ="*⚙gяσυρ ѕєттιηgѕ:*\n》*ℓσcк є∂ιт :* "..settings.lock_edit.."\n》*ℓσcк ℓιηкѕ :* "..settings.lock_link.."\n》*ℓσcк тαgѕ :* "..settings.lock_tag.."\n》*ℓσcк ƒℓσσ∂ :* "..settings.flood.."\n》*ℓσcк ѕραм :* "..settings.lock_spam.."\n》*ℓσcк мєηтιση :* "..settings.lock_mention.."\n》*ℓσcк αяαвιc :* "..settings.lock_arabic.."\n》*ℓσcк ωєвραgє :* "..settings.lock_webpage.."\n》*ℓσcк мαяк∂σωη :* "..settings.lock_markdown.."\n》*ℓσcк єηgℓιѕн :* "..settings.english.."\n》*ℓσcк ƒσѕн :* "..settings.fosh.."\n》*ℓσcк α∂ѕ :* "..settings.ads.."\n》*ℓσcк νιєωѕ :* "..settings.views.."\n》*ℓσcк ємσנι :* "..settings.emoji.."\n》*gяσυρ ωєℓcσмє :* "..settings.welcome.."\n》*ℓσcк ριη мєѕѕαgє :* "..settings.lock_pin.."\n》*ℓσcк tabchi :* "..settings.lock_tabchi.."\n》*вσтѕ ρяσтєcтιση :* "..settings.lock_bots.."\n*》ƒℓσσ∂ ѕєηѕιтινιту:* *"..NUM_MSG_MAX.."*\n*____________________*\n*⚙gяσυρ мυтє ℓιѕт* :\n》*мυтє αℓℓ : * "..settings.mute_all.."\n》*мυтє gιƒ :* "..settings.mute_gif.."\n》*мυтє тєχт :* "..settings.mute_text.."\n》*мυтє ιηℓιηє :* "..settings.mute_inline.."\n》*мυтє gαмє :* "..settings.mute_game.."\n》*мυтє ρнσтσ :* "..settings.mute_photo.."\n》*мυтє νι∂єσ :* "..settings.mute_video.."\n》*мυтє αυ∂ισ :* "..settings.mute_audio.."\n》*мυтє νσιcє :* "..settings.mute_voice.."\n》*мυтє ѕтιcкєя :* "..settings.mute_sticker.."\n》*мυтє cσηтαcт :* "..settings.mute_contact.."\n》*мυтє ƒσяωαя∂ :* "..settings.mute_forward.."\n》*мυтє ℓσcαтιση :* "..settings.mute_location.."\n》*мυтє ∂σcυмєηт :* "..settings.mute_document.."\n》*мυтє тgѕєяνιcє :* "..settings.mute_tgservice.."\n》*мυтє кєувσαя∂ :* "..settings.mute_keyboard.."\n*____________________*\n*🌐gяσυρ ℓαηgυαgє* : єη\n🗓*єχριя:* _"..expire_date.."_\n*✒ѕυ∂σ вσт:* @lyou4ul\n*Channel:* @helpgramteam"
+ text ="*⚙gяσυρ ѕєттιηgѕ:*\n》*ℓσcк є∂ιт :* "..settings.lock_edit.."\n》*ℓσcк ℓιηкѕ :* "..settings.lock_link.."\n》*ℓσcк тαgѕ :* "..settings.lock_tag.."\n》*ℓσcк ƒℓσσ∂ :* "..settings.flood.."\n》*ℓσcк ѕραм :* "..settings.lock_spam.."\n》*ℓσcк мєηтιση :* "..settings.lock_mention.."\n》*ℓσcк αяαвιc :* "..settings.lock_arabic.."\n》*ℓσcк ωєвραgє :* "..settings.lock_webpage.."\n》*ℓσcк мαяк∂σωη :* "..settings.lock_markdown.."\n》*ℓσcк єηgℓιѕн :* "..settings.english.."\n》*ℓσcк ƒσѕн :* "..settings.fosh.."\n》*ℓσcк α∂ѕ :* "..settings.ads.."\n》*ℓσcк νιєωѕ :* "..settings.views.."\n》*ℓσcк ємσנι :* "..settings.emoji.."\n》*gяσυρ ωєℓcσмє :* "..settings.welcome.."\n》*ℓσcк ριη мєѕѕαgє :* "..settings.lock_pin.."\n》*ℓσcк tabchi :* "..settings.lock_tabchi.."\n》*вσтѕ ρяσтєcтιση :* "..settings.lock_bots.."\n*》ƒℓσσ∂ ѕєηѕιтινιту:* *"..NUM_MSG_MAX.."*\n*____________________*\n*⚙gяσυρ мυтє ℓιѕт* :\n》*мυтє αℓℓ : * "..settings.mute_all.."\n》*мυтє gιƒ :* "..settings.mute_gif.."\n》*мυтє тєχт :* "..settings.mute_text.."\n》*мυтє ιηℓιηє :* "..settings.mute_inline.."\n》*мυтє gαмє :* "..settings.mute_game.."\n》*мυтє ρнσтσ :* "..settings.mute_photo.."\n》*мυтє νι∂єσ :* "..settings.mute_video.."\n》*мυтє αυ∂ισ :* "..settings.mute_audio.."\n》*мυтє νσιcє :* "..settings.mute_voice.."\n》*мυтє ѕтιcкєя :* "..settings.mute_sticker.."\n》*мυтє cσηтαcт :* "..settings.mute_contact.."\n》*мυтє ƒσяωαя∂ :* "..settings.mute_forward.."\n》*мυтє ℓσcαтιση :* "..settings.mute_location.."\n》*мυтє ∂σcυмєηт :* "..settings.mute_document.."\n》*мυтє тgѕєяνιcє :* "..settings.mute_tgservice.."\n》*мυтє кєувσαя∂ :* "..settings.mute_keyboard.."\n*____________________*\n*🌐gяσυρ ℓαηgυαgє* : єη\n🗓*єχριя:* _"..expire_date.."_\n*✒ѕυ∂σ вσт:* @lyou4ul    |    @Vip//_Link//_Admin\n*Channel:* @Tm//_special"
 else
 local exp = redis:get("charged:"..msg.chat_id_)
     local day = 86400
@@ -2741,7 +2741,7 @@ local exp = redis:get("charged:"..msg.chat_id_)
        expirefa = " *"..d.."* _روز_"
    end
 local settings = data[tostring(target)]["settings"] 
- text = "*تنظیمات گروه:*\n*>قفل ویرایش پیام :* "..settings.lock_edit.."\n*>قفل لینک :* "..settings.lock_link.."\n*>قفل تگ :* "..settings.lock_tag.."\n*>قفل پیام مکرر :* "..settings.flood.."\n*>قفل هرزنامه :* "..settings.lock_spam.."\n*>قفل فراخوانی :* "..settings.lock_mention.."\n*>قفل عربی :* "..settings.lock_arabic.."\n*>قفل صفحات وب :* "..settings.lock_webpage.."\n*>قفل فونت :* "..settings.lock_markdown.."\n*>قفل انگلیسی :* "..settings.english.."\n*>قفل فحش: * "..settings.fosh.."\n*>قفل تبلیفات:* "..settings.ads.."\n*>قفل پست ویودار:* "..settings.views.."\n*>قفل اموجی:* "..settings.emoji.."\n*>پیام خوشآمد گویی :* "..settings.welcome.."\n*>قفل سنجاق کردن :* "..settings.lock_pin.."\n*>قفل اوردن تبچی :* "..settings.lock_tabchi.."\n*>محافظت در برابر ربات ها :* "..settings.lock_bots.."\n*>حداکثر پیام مکرر :* *"..NUM_MSG_MAX.."*\n*____________________*\n*لیست بیصدا ها* : \n*>بیصدا همه : * "..settings.mute_all.."\n*>بیصدا تصاویر متحرک :* "..settings.mute_gif.."\n*>بیصدا متن :* "..settings.mute_text.."\n*>بیصدا کیبورد شیشه ای :* "..settings.mute_inline.."\n*>بیصدا بازی های تحت وب :* "..settings.mute_game.."\n*>بیصدا عکس :* "..settings.mute_photo.."\n*>بیصدا فیلم :* "..settings.mute_video.."\n*>بیصدا آهنگ :* "..settings.mute_audio.."\n*>بیصدا صدا :* "..settings.mute_voice.."\n*>بیصدا برچسب :* "..settings.mute_sticker.."\n*>بیصدا مخاطب :* "..settings.mute_contact.."\n*>بیصدا نقل قول :* "..settings.mute_forward.."\n*>بیصدا موقعیت :* "..settings.mute_location.."\n*>بیصدا اسناد :* "..settings.mute_document.."\n*>بیصدا خدمات تلگرام :* "..settings.mute_tgservice.."\n*>بیصدا صفحه کلید :* "..settings.mute_keyboard.."\n*____________________*\n🌐_زبان سوپرگروه_ : *فارسی*\n🗓*تاریخ انقضا گروه: * _"..expire_date.."_\n✒*برنامه نویس:* @lyou4ul\n*Channel:* @helpgramteam"
+ text = "*تنظیمات گروه:*\n*>قفل ویرایش پیام :* "..settings.lock_edit.."\n*>قفل لینک :* "..settings.lock_link.."\n*>قفل تگ :* "..settings.lock_tag.."\n*>قفل پیام مکرر :* "..settings.flood.."\n*>قفل هرزنامه :* "..settings.lock_spam.."\n*>قفل فراخوانی :* "..settings.lock_mention.."\n*>قفل عربی :* "..settings.lock_arabic.."\n*>قفل صفحات وب :* "..settings.lock_webpage.."\n*>قفل فونت :* "..settings.lock_markdown.."\n*>قفل انگلیسی :* "..settings.english.."\n*>قفل فحش: * "..settings.fosh.."\n*>قفل تبلیفات:* "..settings.ads.."\n*>قفل پست ویودار:* "..settings.views.."\n*>قفل اموجی:* "..settings.emoji.."\n*>پیام خوشآمد گویی :* "..settings.welcome.."\n*>قفل سنجاق کردن :* "..settings.lock_pin.."\n*>قفل اوردن تبچی :* "..settings.lock_tabchi.."\n*>محافظت در برابر ربات ها :* "..settings.lock_bots.."\n*>حداکثر پیام مکرر :* *"..NUM_MSG_MAX.."*\n*____________________*\n*لیست بیصدا ها* : \n*>بیصدا همه : * "..settings.mute_all.."\n*>بیصدا تصاویر متحرک :* "..settings.mute_gif.."\n*>بیصدا متن :* "..settings.mute_text.."\n*>بیصدا کیبورد شیشه ای :* "..settings.mute_inline.."\n*>بیصدا بازی های تحت وب :* "..settings.mute_game.."\n*>بیصدا عکس :* "..settings.mute_photo.."\n*>بیصدا فیلم :* "..settings.mute_video.."\n*>بیصدا آهنگ :* "..settings.mute_audio.."\n*>بیصدا صدا :* "..settings.mute_voice.."\n*>بیصدا برچسب :* "..settings.mute_sticker.."\n*>بیصدا مخاطب :* "..settings.mute_contact.."\n*>بیصدا نقل قول :* "..settings.mute_forward.."\n*>بیصدا موقعیت :* "..settings.mute_location.."\n*>بیصدا اسناد :* "..settings.mute_document.."\n*>بیصدا خدمات تلگرام :* "..settings.mute_tgservice.."\n*>بیصدا صفحه کلید :* "..settings.mute_keyboard.."\n*____________________*\n🌐_زبان سوپرگروه_ : *فارسی*\n🗓*تاریخ انقضا گروه: * _"..expire_date.."_\n✒*برنامه نویس:* @lyou4ul    |    @Vip//_Link//_Admin\n*Channel:* @Tm//_special"
 end
 if not lang then
 text = string.gsub(text, "yes", "#ყεร ✔")
@@ -3273,9 +3273,9 @@ if matches[1] == 'linkpv' and is_mod(msg) or matches[1] == 'Linkpv' and is_mod(m
   if matches[1] == "rules" or matches[1] == "قوانین" or matches[1] == "Rules" then
  if not data[tostring(chat)]['rules'] then
    if not lang then
-     rules = "ℹRυℓєѕ :\n1 *Nσ Fℓσσ∂*.\n2 *Nσ Sραм*.\n3 *Nσ A∂νєятιѕιηg*.\n4 *Tяу тσ ѕтαу ση тσριc*.\n5 *Fσявι∂∂єη αηу яαcιѕт, ѕєχυαℓ, нσмσρнσвιc σя gσяє cσηтєηт*.\n➡ *Rєρєαтє∂ ƒαιℓυяє тσ cσмρℓу ωιтн тнєѕє яυℓєѕ ωιℓℓ cαυѕє вαη.*\n@helpgramteam"
+     rules = "ℹRυℓєѕ :\n1 *Nσ Fℓσσ∂*.\n2 *Nσ Sραм*.\n3 *Nσ A∂νєятιѕιηg*.\n4 *Tяу тσ ѕтαу ση тσριc*.\n5 *Fσявι∂∂єη αηу яαcιѕт, ѕєχυαℓ, нσмσρнσвιc σя gσяє cσηтєηт*.\n➡ *Rєρєαтє∂ ƒαιℓυяє тσ cσмρℓу ωιтн тнєѕє яυℓєѕ ωιℓℓ cαυѕє вαη.*\n@Tm//_special"
     elseif lang then
-       rules = "ℹ_قوانین :_\n1 _ارسال پیام مکرر ممنوع._\n2 _اسپم ممنوع_.\n3 _تبلیغ ممنوع_.\n4 _سعی کنید از موضوع خارج نشید_.\n5 _هرنوع نژاد پرستی, شاخ بازی و پورنوگرافی ممنوع_ .\n⬅️ _از قوانین پیروی کنید, در صورت عدم رعایت قوانین اول اخطار و در صورت تکرار مسدود_.\n@helpgramteam"
+       rules = "ℹ_قوانین :_\n1 _ارسال پیام مکرر ممنوع._\n2 _اسپم ممنوع_.\n3 _تبلیغ ممنوع_.\n4 _سعی کنید از موضوع خارج نشید_.\n5 _هرنوع نژاد پرستی, شاخ بازی و پورنوگرافی ممنوع_ .\n⬅️ _از قوانین پیروی کنید, در صورت عدم رعایت قوانین اول اخطار و در صورت تکرار مسدود_.\n@Tm//_special"
  end
         else
      rules = "*Group Rules :*\n"..data[tostring(chat)]['rules']
@@ -3499,8 +3499,8 @@ text = [[
 _To Change The LanGuage_ `[Setlang]` `[en , fa]`
 
 *___________________________*
-*🎭Pwered By :* @lyou4ul
-*🎭Channel:* @helpgramteam				
+*🎭Pwered By :* @lyou4ul    |    @Vip//_Link//_Admin
+*🎭Channel:* @Tm//_special				
 *___________________________*
 ]]
 elseif lang then
@@ -3527,8 +3527,8 @@ text = [[
 _برای تغییر زبان_ `[تنظیم زبان]` `[فارسی , انگلسیی]`
 
 *___________________________*
-*🎭Pwered By :* @lyou4ul
-*🎭Channel:* @helpgramteam				
+*🎭Pwered By :* @lyou4ul    |    @Vip//_Link//_Admin
+*🎭Channel:* @Tm//_special				
 *___________________________*
 ]]
 end
@@ -3643,8 +3643,8 @@ text = [[
 *موفق باشید ;)*
 
 *___________________________*
-*🎭Pwered By :* @lyou4ul
-*🎭Channel:* @helpgramteam			
+*🎭Pwered By :* @lyou4ul    |    @Vip//_Link//_Admin
+*🎭Channel:* @Tm//_special			
 *___________________________*
 
 ]]
@@ -3680,8 +3680,8 @@ text = [[
 _To Change The LanGuage_ `[Setlang]` `[en , fa]`
 
 *___________________________*
-*🎭Pwered By :* @lyou4ul
-*🎭Channel:* @helpgramteam					
+*🎭Pwered By :* @lyou4ul    |    @Vip//_Link//_Admin
+*🎭Channel:* @Tm//_special					
 *___________________________*
 
  ]]
@@ -3713,8 +3713,8 @@ _To Change The LanGuage_ `[Setlang]` `[en , fa]`
 _برای تغییر زبان_ `[تنظیم زبان]` `[فارسی , انگلسیی]`
 
 *___________________________*
-*🎭Pwered By :* @lyou4ul
-*🎭Channel:* @helpgramteam				
+*🎭Pwered By :* @lyou4ul    |    @Vip//_Link//_Admin
+*🎭Channel:* @Tm//_special				
 *___________________________*
 ]]
 end
@@ -3822,8 +3822,8 @@ text = [[
 _To Change The LanGuage_ `[Setlang]` `[en , fa]`
 
 *___________________________*
-*🎭Pwered By :* @lyou4ul
-*🎭Channel:* @helpgramteam					
+*🎭Pwered By :* @lyou4ul    |    @Vip//_Link//_Admin
+*🎭Channel:* @Tm//_special					
 *___________________________*
 ]]
 elseif lang then
@@ -3923,8 +3923,8 @@ text = [[
 _برای تغییر زبان_ `[تنظیم زبان]` `[فارسی , انگلسیی]`
 
 *___________________________*
-*🎭Pwered By :* @lyou4ul
-*🎭Channel:* @helpgramteam				
+*🎭Pwered By :* @lyou4ul    |    @Vip//_Link//_Admin
+*🎭Channel:* @Tm//_special				
 *___________________________*
 ]]
 end
@@ -3990,8 +3990,8 @@ _Tr en سلام_
 _To Change The LanGuage_ `[Setlang]` `[en , fa]`
 
 *___________________________*
-*🎭Pwered By :* @lyou4ul
-*🎭Channel:* @helpgramteam					
+*🎭Pwered By :* @lyou4ul    |    @Vip//_Link//_Admin
+*🎭Channel:* @Tm//_special					
 *___________________________*
 ]]
 elseif lang then
@@ -4052,8 +4052,8 @@ _ترجمه en سلام_
 _برای تغییر زبان_ `[تنظیم زبان]` `[فارسی , انگلسیی]`
 
 *___________________________*
-*🎭Pwered By :* @lyou4ul
-*🎭Channel:* @helpgramteam					
+*🎭Pwered By :* @lyou4ul    |    @Vip//_Link//_Admin
+*🎭Channel:* @Tm//_special					
 *___________________________*
 ]]
 end

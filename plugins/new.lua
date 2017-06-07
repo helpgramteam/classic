@@ -15,8 +15,8 @@ return [[
 - مقام من
 - مشاهده مقام شما در ربات
 -------------------------
-*🎭shop :* @lyou4ul
-*🎭Channel:* @helpgramteam
+*🎭shop :* @lyou4ul | @Vip/_Link/_Admin
+*🎭Channel:* @tm/_special
 ]]
 end
 return {

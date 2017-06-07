@@ -12,7 +12,7 @@ local function mmm(chat_id)
   return chat
 end
 
-local function matador(msg, matches)
+local function special(msg, matches)
 local bot_id = 338961804 -- bot id
 if matches[1] == 'cleanmember' and is_sudo(msg) or matches[1] == 'Cleanmember' and is_sudo(msg) or matches[1] == 'پاک کردن کاربران' and is_sudo(msg) then 
   function m(arg, data) 
@@ -33,8 +33,8 @@ patterns ={
 "^([Cc]leanmember)$",
 "^(پاک کردن کاربران)$"
  }, 
-  run =  matador
+  run =  special
 }
 
 
---end by @lyou4ul	  
+--end by @lyou4ul	@Vip_Link_Admin  

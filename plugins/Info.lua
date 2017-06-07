@@ -49,7 +49,7 @@ local function info_cb(arg, data)
   local um_hash = 'msgs:'..data.id_..':'..arg.chat_id
   user_info_msgs = tonumber(redis:get(um_hash) or 0)
   text = text..'Total messages : '..user_info_msgs..'\n\n'
-  text = text..'@helpgramteam'
+  text = text..'@Tm//_special'
   tdcli.sendMessage(arg.chat_id, arg.msgid, 0, text, 0, "md")
 end
 tdcli_function ({
@@ -144,7 +144,7 @@ local function info_by_id(arg, data)
   local um_hash = 'msgs:'..data.id_..':'..arg.chat_id
   user_info_msgs = tonumber(redis:get(um_hash) or 0)
   text = text..'Total messages : '..user_info_msgs..'\n\n'
-  text = text..'@helpgramteam'
+  text = text..'@Tm//_special'
   tdcli.sendMessage(arg.chat_id, arg.msgid, 0, text, 0, "md")
    else
    tdcli.sendMessage(arg.chat_id, "", 0, "*User not found*", 0, "md")
