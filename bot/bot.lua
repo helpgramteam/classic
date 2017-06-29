@@ -92,10 +92,10 @@ function create_config( )
     info_text = [[» special v 2.0
 		
 		»Sudo BoT :
-		» @lyou4ul / @Vip//_Link//_Admin
+		» @lyou4ul 
 		
 		»Shop Source
-		» @tm//_special
+		» @tm/_special
 
 GoOd luck ;))
 ]],
