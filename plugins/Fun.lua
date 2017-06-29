@@ -207,7 +207,7 @@ function run(msg, matches)
 	end
 --------------------------------
 	if matches[1]:lower() == 'time' or matches[1]:lower() == 'Time' or matches[1]:lower() == 'ساعت' then
-		local url , res = http.request('http://api.gpmod.ir/time/')
+		local url , res = http.request('https://provps.ir/td?td=time')
 		if res ~= 200 then
 			return "No connection"
 		end

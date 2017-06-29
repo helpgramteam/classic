@@ -37,4 +37,4 @@ patterns ={
 }
 
 
---end by @lyou4ul	@Vip_Link_Admin  
+--end by @lyou4ul	

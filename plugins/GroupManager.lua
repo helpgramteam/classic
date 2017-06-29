@@ -2729,7 +2729,7 @@ end
 end
 if not lang then
 local settings = data[tostring(target)]["settings"] 
- text ="*⚙gяσυρ ѕєттιηgѕ:*\n》*ℓσcк є∂ιт :* "..settings.lock_edit.."\n》*ℓσcк ℓιηкѕ :* "..settings.lock_link.."\n》*ℓσcк тαgѕ :* "..settings.lock_tag.."\n》*ℓσcк ƒℓσσ∂ :* "..settings.flood.."\n》*ℓσcк ѕραм :* "..settings.lock_spam.."\n》*ℓσcк мєηтιση :* "..settings.lock_mention.."\n》*ℓσcк αяαвιc :* "..settings.lock_arabic.."\n》*ℓσcк ωєвραgє :* "..settings.lock_webpage.."\n》*ℓσcк мαяк∂σωη :* "..settings.lock_markdown.."\n》*ℓσcк єηgℓιѕн :* "..settings.english.."\n》*ℓσcк ƒσѕн :* "..settings.fosh.."\n》*ℓσcк α∂ѕ :* "..settings.ads.."\n》*ℓσcк νιєωѕ :* "..settings.views.."\n》*ℓσcк ємσנι :* "..settings.emoji.."\n》*gяσυρ ωєℓcσмє :* "..settings.welcome.."\n》*ℓσcк ριη мєѕѕαgє :* "..settings.lock_pin.."\n》*ℓσcк tabchi :* "..settings.lock_tabchi.."\n》*вσтѕ ρяσтєcтιση :* "..settings.lock_bots.."\n*》ƒℓσσ∂ ѕєηѕιтινιту:* *"..NUM_MSG_MAX.."*\n*____________________*\n*⚙gяσυρ мυтє ℓιѕт* :\n》*мυтє αℓℓ : * "..settings.mute_all.."\n》*мυтє gιƒ :* "..settings.mute_gif.."\n》*мυтє тєχт :* "..settings.mute_text.."\n》*мυтє ιηℓιηє :* "..settings.mute_inline.."\n》*мυтє gαмє :* "..settings.mute_game.."\n》*мυтє ρнσтσ :* "..settings.mute_photo.."\n》*мυтє νι∂єσ :* "..settings.mute_video.."\n》*мυтє αυ∂ισ :* "..settings.mute_audio.."\n》*мυтє νσιcє :* "..settings.mute_voice.."\n》*мυтє ѕтιcкєя :* "..settings.mute_sticker.."\n》*мυтє cσηтαcт :* "..settings.mute_contact.."\n》*мυтє ƒσяωαя∂ :* "..settings.mute_forward.."\n》*мυтє ℓσcαтιση :* "..settings.mute_location.."\n》*мυтє ∂σcυмєηт :* "..settings.mute_document.."\n》*мυтє тgѕєяνιcє :* "..settings.mute_tgservice.."\n》*мυтє кєувσαя∂ :* "..settings.mute_keyboard.."\n*____________________*\n*🌐gяσυρ ℓαηgυαgє* : єη\n🗓*єχριя:* _"..expire_date.."_\n*✒ѕυ∂σ вσт:* @lyou4ul    |    @Vip//_Link//_Admin\n*Channel:* @Tm//_special"
+ text ="*⚙gяσυρ ѕєттιηgѕ:*\n》*ℓσcк є∂ιт :* "..settings.lock_edit.."\n》*ℓσcк ℓιηкѕ :* "..settings.lock_link.."\n》*ℓσcк тαgѕ :* "..settings.lock_tag.."\n》*ℓσcк ƒℓσσ∂ :* "..settings.flood.."\n》*ℓσcк ѕραм :* "..settings.lock_spam.."\n》*ℓσcк мєηтιση :* "..settings.lock_mention.."\n》*ℓσcк αяαвιc :* "..settings.lock_arabic.."\n》*ℓσcк ωєвραgє :* "..settings.lock_webpage.."\n》*ℓσcк мαяк∂σωη :* "..settings.lock_markdown.."\n》*ℓσcк єηgℓιѕн :* "..settings.english.."\n》*ℓσcк ƒσѕн :* "..settings.fosh.."\n》*ℓσcк α∂ѕ :* "..settings.ads.."\n》*ℓσcк νιєωѕ :* "..settings.views.."\n》*ℓσcк ємσנι :* "..settings.emoji.."\n》*gяσυρ ωєℓcσмє :* "..settings.welcome.."\n》*ℓσcк ριη мєѕѕαgє :* "..settings.lock_pin.."\n》*ℓσcк tabchi :* "..settings.lock_tabchi.."\n》*вσтѕ ρяσтєcтιση :* "..settings.lock_bots.."\n*》ƒℓσσ∂ ѕєηѕιтινιту:* *"..NUM_MSG_MAX.."*\n*____________________*\n*⚙gяσυρ мυтє ℓιѕт* :\n》*мυтє αℓℓ : * "..settings.mute_all.."\n》*мυтє gιƒ :* "..settings.mute_gif.."\n》*мυтє тєχт :* "..settings.mute_text.."\n》*мυтє ιηℓιηє :* "..settings.mute_inline.."\n》*мυтє gαмє :* "..settings.mute_game.."\n》*мυтє ρнσтσ :* "..settings.mute_photo.."\n》*мυтє νι∂єσ :* "..settings.mute_video.."\n》*мυтє αυ∂ισ :* "..settings.mute_audio.."\n》*мυтє νσιcє :* "..settings.mute_voice.."\n》*мυтє ѕтιcкєя :* "..settings.mute_sticker.."\n》*мυтє cσηтαcт :* "..settings.mute_contact.."\n》*мυтє ƒσяωαя∂ :* "..settings.mute_forward.."\n》*мυтє ℓσcαтιση :* "..settings.mute_location.."\n》*мυтє ∂σcυмєηт :* "..settings.mute_document.."\n》*мυтє тgѕєяνιcє :* "..settings.mute_tgservice.."\n》*мυтє кєувσαя∂ :* "..settings.mute_keyboard.."\n*____________________*\n*🌐gяσυρ ℓαηgυαgє* : єη\n🗓*єχριя:* _"..expire_date.."_\n*✒ѕυ∂σ вσт:* @lyou4ul\n*Channel:* @Tm//_special"
 else
 local exp = redis:get("charged:"..msg.chat_id_)
     local day = 86400
@@ -2741,7 +2741,7 @@ local exp = redis:get("charged:"..msg.chat_id_)
        expirefa = " *"..d.."* _روز_"
    end
 local settings = data[tostring(target)]["settings"] 
- text = "*تنظیمات گروه:*\n*>قفل ویرایش پیام :* "..settings.lock_edit.."\n*>قفل لینک :* "..settings.lock_link.."\n*>قفل تگ :* "..settings.lock_tag.."\n*>قفل پیام مکرر :* "..settings.flood.."\n*>قفل هرزنامه :* "..settings.lock_spam.."\n*>قفل فراخوانی :* "..settings.lock_mention.."\n*>قفل عربی :* "..settings.lock_arabic.."\n*>قفل صفحات وب :* "..settings.lock_webpage.."\n*>قفل فونت :* "..settings.lock_markdown.."\n*>قفل انگلیسی :* "..settings.english.."\n*>قفل فحش: * "..settings.fosh.."\n*>قفل تبلیفات:* "..settings.ads.."\n*>قفل پست ویودار:* "..settings.views.."\n*>قفل اموجی:* "..settings.emoji.."\n*>پیام خوشآمد گویی :* "..settings.welcome.."\n*>قفل سنجاق کردن :* "..settings.lock_pin.."\n*>قفل اوردن تبچی :* "..settings.lock_tabchi.."\n*>محافظت در برابر ربات ها :* "..settings.lock_bots.."\n*>حداکثر پیام مکرر :* *"..NUM_MSG_MAX.."*\n*____________________*\n*لیست بیصدا ها* : \n*>بیصدا همه : * "..settings.mute_all.."\n*>بیصدا تصاویر متحرک :* "..settings.mute_gif.."\n*>بیصدا متن :* "..settings.mute_text.."\n*>بیصدا کیبورد شیشه ای :* "..settings.mute_inline.."\n*>بیصدا بازی های تحت وب :* "..settings.mute_game.."\n*>بیصدا عکس :* "..settings.mute_photo.."\n*>بیصدا فیلم :* "..settings.mute_video.."\n*>بیصدا آهنگ :* "..settings.mute_audio.."\n*>بیصدا صدا :* "..settings.mute_voice.."\n*>بیصدا برچسب :* "..settings.mute_sticker.."\n*>بیصدا مخاطب :* "..settings.mute_contact.."\n*>بیصدا نقل قول :* "..settings.mute_forward.."\n*>بیصدا موقعیت :* "..settings.mute_location.."\n*>بیصدا اسناد :* "..settings.mute_document.."\n*>بیصدا خدمات تلگرام :* "..settings.mute_tgservice.."\n*>بیصدا صفحه کلید :* "..settings.mute_keyboard.."\n*____________________*\n🌐_زبان سوپرگروه_ : *فارسی*\n🗓*تاریخ انقضا گروه: * _"..expire_date.."_\n✒*برنامه نویس:* @lyou4ul    |    @Vip//_Link//_Admin\n*Channel:* @Tm//_special"
+ text = "*تنظیمات گروه:*\n*>قفل ویرایش پیام :* "..settings.lock_edit.."\n*>قفل لینک :* "..settings.lock_link.."\n*>قفل تگ :* "..settings.lock_tag.."\n*>قفل پیام مکرر :* "..settings.flood.."\n*>قفل هرزنامه :* "..settings.lock_spam.."\n*>قفل فراخوانی :* "..settings.lock_mention.."\n*>قفل عربی :* "..settings.lock_arabic.."\n*>قفل صفحات وب :* "..settings.lock_webpage.."\n*>قفل فونت :* "..settings.lock_markdown.."\n*>قفل انگلیسی :* "..settings.english.."\n*>قفل فحش: * "..settings.fosh.."\n*>قفل تبلیفات:* "..settings.ads.."\n*>قفل پست ویودار:* "..settings.views.."\n*>قفل اموجی:* "..settings.emoji.."\n*>پیام خوشآمد گویی :* "..settings.welcome.."\n*>قفل سنجاق کردن :* "..settings.lock_pin.."\n*>قفل اوردن تبچی :* "..settings.lock_tabchi.."\n*>محافظت در برابر ربات ها :* "..settings.lock_bots.."\n*>حداکثر پیام مکرر :* *"..NUM_MSG_MAX.."*\n*____________________*\n*لیست بیصدا ها* : \n*>بیصدا همه : * "..settings.mute_all.."\n*>بیصدا تصاویر متحرک :* "..settings.mute_gif.."\n*>بیصدا متن :* "..settings.mute_text.."\n*>بیصدا کیبورد شیشه ای :* "..settings.mute_inline.."\n*>بیصدا بازی های تحت وب :* "..settings.mute_game.."\n*>بیصدا عکس :* "..settings.mute_photo.."\n*>بیصدا فیلم :* "..settings.mute_video.."\n*>بیصدا آهنگ :* "..settings.mute_audio.."\n*>بیصدا صدا :* "..settings.mute_voice.."\n*>بیصدا برچسب :* "..settings.mute_sticker.."\n*>بیصدا مخاطب :* "..settings.mute_contact.."\n*>بیصدا نقل قول :* "..settings.mute_forward.."\n*>بیصدا موقعیت :* "..settings.mute_location.."\n*>بیصدا اسناد :* "..settings.mute_document.."\n*>بیصدا خدمات تلگرام :* "..settings.mute_tgservice.."\n*>بیصدا صفحه کلید :* "..settings.mute_keyboard.."\n*____________________*\n🌐_زبان سوپرگروه_ : *فارسی*\n🗓*تاریخ انقضا گروه: * _"..expire_date.."_\n✒*برنامه نویس:* @lyou4ul\n*Channel:* @Tm//_special"
 end
 if not lang then
 text = string.gsub(text, "yes", "#ყεร ✔")
@@ -3499,8 +3499,8 @@ text = [[
 _To Change The LanGuage_ `[Setlang]` `[en , fa]`
 
 *___________________________*
-*🎭Pwered By :* @lyou4ul    |    @Vip//_Link//_Admin
-*🎭Channel:* @Tm//_special				
+*🎭Pwered By :* @lyou4ul
+*🎭Channel:* @Tm/_special				
 *___________________________*
 ]]
 elseif lang then
@@ -3527,8 +3527,8 @@ text = [[
 _برای تغییر زبان_ `[تنظیم زبان]` `[فارسی , انگلسیی]`
 
 *___________________________*
-*🎭Pwered By :* @lyou4ul    |    @Vip//_Link//_Admin
-*🎭Channel:* @Tm//_special				
+*🎭Pwered By :* @lyou4ul
+*🎭Channel:* @Tm/_special				
 *___________________________*
 ]]
 end
@@ -3643,8 +3643,8 @@ text = [[
 *موفق باشید ;)*
 
 *___________________________*
-*🎭Pwered By :* @lyou4ul    |    @Vip//_Link//_Admin
-*🎭Channel:* @Tm//_special			
+*🎭Pwered By :* @lyou4ul
+*🎭Channel:* @Tm/_special			
 *___________________________*
 
 ]]
@@ -3680,8 +3680,8 @@ text = [[
 _To Change The LanGuage_ `[Setlang]` `[en , fa]`
 
 *___________________________*
-*🎭Pwered By :* @lyou4ul    |    @Vip//_Link//_Admin
-*🎭Channel:* @Tm//_special					
+*🎭Pwered By :* @lyou4ul
+*🎭Channel:* @Tm/_special					
 *___________________________*
 
  ]]
@@ -3713,8 +3713,8 @@ _To Change The LanGuage_ `[Setlang]` `[en , fa]`
 _برای تغییر زبان_ `[تنظیم زبان]` `[فارسی , انگلسیی]`
 
 *___________________________*
-*🎭Pwered By :* @lyou4ul    |    @Vip//_Link//_Admin
-*🎭Channel:* @Tm//_special				
+*🎭Pwered By :* @lyou4ul
+*🎭Channel:* @Tm/_special				
 *___________________________*
 ]]
 end
@@ -3822,8 +3822,8 @@ text = [[
 _To Change The LanGuage_ `[Setlang]` `[en , fa]`
 
 *___________________________*
-*🎭Pwered By :* @lyou4ul    |    @Vip//_Link//_Admin
-*🎭Channel:* @Tm//_special					
+*🎭Pwered By :* @lyou4ul
+*🎭Channel:* @Tm/_special					
 *___________________________*
 ]]
 elseif lang then
@@ -3923,8 +3923,8 @@ text = [[
 _برای تغییر زبان_ `[تنظیم زبان]` `[فارسی , انگلسیی]`
 
 *___________________________*
-*🎭Pwered By :* @lyou4ul    |    @Vip//_Link//_Admin
-*🎭Channel:* @Tm//_special				
+*🎭Pwered By :* @lyou4ul
+*🎭Channel:* @Tm/_special				
 *___________________________*
 ]]
 end
@@ -3990,8 +3990,8 @@ _Tr en سلام_
 _To Change The LanGuage_ `[Setlang]` `[en , fa]`
 
 *___________________________*
-*🎭Pwered By :* @lyou4ul    |    @Vip//_Link//_Admin
-*🎭Channel:* @Tm//_special					
+*🎭Pwered By :* @lyou4ul
+*🎭Channel:* @Tm/_special					
 *___________________________*
 ]]
 elseif lang then
@@ -4052,8 +4052,8 @@ _ترجمه en سلام_
 _برای تغییر زبان_ `[تنظیم زبان]` `[فارسی , انگلسیی]`
 
 *___________________________*
-*🎭Pwered By :* @lyou4ul    |    @Vip//_Link//_Admin
-*🎭Channel:* @Tm//_special					
+*🎭Pwered By :* @lyou4ul
+*🎭Channel:* @Tm/_special					
 *___________________________*
 ]]
 end
